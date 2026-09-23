@@ -45,7 +45,7 @@ main{padding:24px 0 52px}
 .hero:after{content:"";position:absolute;width:220px;height:220px;border:1px solid rgba(182,138,82,.22);border-radius:50%;right:-95px;bottom:-135px}
 .eyebrow,.section-kicker{text-transform:uppercase;letter-spacing:.12em;font-size:11px;font-weight:850}
 .eyebrow{color:#d7bf99}
-.hero h1{position:relative;margin:10px 0 14px;font:600 clamp(38px,6.6vw,68px)/.98 Georgia,serif;letter-spacing:-.045em;max-width:900px}
+.hero h1{position:relative;margin:10px 0 14px;font:600 clamp(36px,6.2vw,66px)/1 Georgia,serif;letter-spacing:-.04em;max-width:900px;text-wrap:balance}
 .hero h1 span{color:#d9c6a8}
 .hero-copy{position:relative;max-width:760px;margin:0;color:#dce2e6;font-size:17px}
 .hero-meta{position:relative;display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
@@ -143,7 +143,7 @@ main{padding:24px 0 52px}
 @media(max-width:760px){
   .shell{width:min(100% - 20px,1080px)}
   .topbar-inner{height:58px}.brand{font-size:19px}.brand-mark{width:35px;height:35px;font-size:22px}
-  main{padding-top:14px}.hero{padding:24px 20px;border-radius:22px}.hero h1{font-size:42px}
+  main{padding-top:14px}.hero{padding:24px 20px;border-radius:22px}.hero h1{font-size:clamp(31px,9vw,39px);line-height:1.02;letter-spacing:-.035em;max-width:100%}
   .hero-meta>div{min-width:calc(50% - 6px);flex:1}.hero-meta>div:last-child{min-width:100%}
   .app-actions{align-items:flex-start;flex-direction:column}
   .app-actions-buttons{width:100%}.action-btn{flex:1}
@@ -159,6 +159,7 @@ main{padding:24px 0 52px}
   .footer-inner{flex-direction:column}
 }
 @media(max-width:430px){
+  .hero h1{font-size:clamp(29px,8.4vw,35px);line-height:1.03}
   .install-btn{max-width:115px;overflow:hidden;white-space:nowrap}
   .decision-summary{grid-template-columns:42px 1fr}.court-badge{width:42px;height:42px}
   .summary-actions{grid-column:2;justify-content:flex-end;margin-top:-4px}
