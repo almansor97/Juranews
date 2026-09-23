@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "status": "preview",
+  "issue_label": "KW 39/2026",
+  "week": {
+    "from": "2026-09-21",
+    "to": "2026-09-27",
+    "short": "KW 39",
+    "title": "Ausgabe KW 39 · 21.–27. September 2026"
+  },
+  "intro": "Bis zu 40 besonders relevante Entscheidungen von BVerfG, BGH, BVerwG, BAG, BSG und BFH – mit Kernaussage, Begründung, Examensbezug und amtlicher Fundstelle.",
+  "week_summary": "Die Oberfläche ist eingerichtet. Die erste reguläre Wochenausgabe wird nach Abschluss der Kalenderwoche mit den tatsächlich veröffentlichten Entscheidungen befüllt.",
+  "decisions": [],
+  "preview_decisions": [
+    {
+      "id": "preview-bgh",
+      "is_preview": true,
+      "court": "BGH",
+      "senate": "Zivilsenat",
+      "date": "—",
+      "docket": "Az. folgt",
+      "area": "Zivilrecht",
+      "title": "Aufbau einer Entscheidungskarte",
+      "holding": "Die Kernaussage der Entscheidung steht bereits in der Übersicht und ermöglicht eine schnelle Relevanzprüfung.",
+      "summary": "Nach dem Aufklappen folgt zunächst eine verständliche juristische Zusammenfassung. Sie soll deutlich ausführlicher sein als die bloße Kernaussage, ohne den Entscheidungstext unnötig zu wiederholen.",
+      "facts": "Hier wird der für die rechtliche Würdigung maßgebliche Sachverhalt knapp und klausurorientiert rekonstruiert.",
+      "reasons": [
+        "Die tragenden rechtlichen Erwägungen werden in ihrer Prüfungsreihenfolge herausgearbeitet.",
+        "Neue oder fortentwickelte dogmatische Aussagen werden von bloßen Einzelfallerwägungen getrennt.",
+        "Soweit einschlägig, werden maßgebliche Normen und das Verhältnis zu bisheriger Rechtsprechung benannt."
+      ],
+      "significance": "Abschließend wird eingeordnet, was sich durch die Entscheidung ändert und weshalb sie für Ausbildung oder Praxis bedeutsam ist.",
+      "exam_relevance": "Konkreter Hinweis auf typische Klausurkonstellationen, Streitstände und prüfungsrelevante Aussagen.",
+      "citation": "Amtliche Fundstelle folgt",
+      "source": null
+    },
+    {
+      "id": "preview-bverfg",
+      "is_preview": true,
+      "court": "BVerfG",
+      "senate": "Senat / Kammer",
+      "date": "—",
+      "docket": "Az. folgt",
+      "area": "Öffentliches Recht",
+      "title": "Verfassungsrechtliche Entscheidung",
+      "holding": "Grundrechtsprüfung, verfassungsrechtlicher Maßstab und Konsequenzen der Entscheidung werden auf einen Blick erkennbar.",
+      "summary": "Bei Entscheidungen des Bundesverfassungsgerichts wird besonders deutlich zwischen Prüfungsmaßstab, Eingriff, Rechtfertigung und den Aussagen zur Fachgerichtsbarkeit unterschieden.",
+      "facts": "Der Sachverhalt konzentriert sich auf diejenigen tatsächlichen Umstände, die für Schutzbereich, Eingriff und Abwägung erheblich sind.",
+      "reasons": [
+        "Verfassungsrechtlicher Maßstab.",
+        "Anwendung des Maßstabs auf den konkreten Fall.",
+        "Einordnung der Reichweite für vergleichbare Fallgestaltungen."
+      ],
+      "significance": "Die Darstellung macht sichtbar, ob eine Entscheidung einen etablierten Maßstab nur anwendet oder die verfassungsrechtliche Dogmatik weiterentwickelt.",
+      "exam_relevance": "Besonders hervorgehoben werden Grundrechtsdogmatik, Verfassungsbeschwerde und mögliche Bezüge zum Verwaltungsrecht.",
+      "citation": "Amtliche Fundstelle folgt",
+      "source": null
+    },
+    {
+      "id": "preview-straf",
+      "is_preview": true,
+      "court": "BGH",
+      "senate": "Strafsenat",
+      "date": "—",
+      "docket": "Az. folgt",
+      "area": "Strafrecht",
+      "title": "Strafrechtliche Entscheidung",
+      "holding": "Neue Aussagen zu Tatbestand, Zurechnung, Konkurrenz oder Rechtsfolgen werden unmittelbar in der Übersicht kenntlich gemacht.",
+      "summary": "Die Besprechung arbeitet heraus, an welcher Stelle im strafrechtlichen Prüfungsaufbau die Entscheidung relevant wird und ob sie bestehende Rechtsprechung bestätigt, präzisiert oder verändert.",
+      "facts": "Der Sachverhalt wird so weit reduziert, dass die entscheidungserhebliche Konstellation und ihre Klausurrelevanz schnell erfasst werden können.",
+      "reasons": [
+        "Einordnung in den Deliktsaufbau.",
+        "Darstellung des vom BGH verwendeten rechtlichen Maßstabs.",
+        "Abgrenzung zu nahe liegenden Alternativkonstellationen."
+      ],
+      "significance": "Der Schwerpunkt liegt auf übertragbaren Aussagen, nicht auf bloßen Besonderheiten des Einzelfalls.",
+      "exam_relevance": "Hinweis auf typische Examensprobleme, einschlägige Normen und die Stelle im Gutachten, an der die Entscheidung nutzbar ist.",
+      "citation": "Amtliche Fundstelle folgt",
+      "source": null
+    }
+  ]
+}
