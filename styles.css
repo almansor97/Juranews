@@ -74,6 +74,7 @@ main{padding:24px 0 52px}
 .area-tag{background:var(--card2);color:var(--ink2)}
 .exam-tag{background:#f2e2d0;color:#76552f}
 .preview-tag{background:#eee0e3;color:var(--wine)}
+.favorite-saved{display:inline-flex;align-items:center;border-radius:999px;padding:4px 8px;background:#f2e2d0;color:#76552f;font-size:10px;text-transform:uppercase;letter-spacing:.06em;font-weight:900}
 .decision-main h3{margin:0;font:600 clamp(21px,3.4vw,27px)/1.12 Georgia,serif;letter-spacing:-.02em}
 .holding{margin:8px 0 0;color:#4f5a62;font-size:14px}
 .summary-actions{display:flex;align-items:center;gap:6px}
