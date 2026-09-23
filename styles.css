@@ -122,6 +122,10 @@ main{padding:24px 0 52px}
 .detailed-analysis{padding:16px 17px;margin:2px 0 19px;border:1px solid var(--line);border-radius:15px;background:color-mix(in srgb,var(--paper) 55%,var(--card))}
 .detailed-analysis p{margin:0 0 13px}
 .detailed-analysis p:last-child{margin-bottom:0}
+.decision-close-row{display:flex;justify-content:flex-end;padding-top:18px;margin-top:4px;border-top:1px solid var(--line)}
+.decision-close-btn{width:100%;border:1px solid var(--line);background:var(--ink);color:#fff;border-radius:13px;padding:12px 16px;font-weight:900;letter-spacing:.01em}
+.decision-close-btn:hover{background:var(--ink2)}
+.decision-close-btn:active{transform:translateY(1px)}
 .archive-panel{display:grid;grid-template-columns:.8fr 1.2fr;gap:24px;margin-top:28px;background:var(--ink);color:#fff;border-radius:22px;padding:22px}
 .archive-panel .section-kicker{color:#d7bf99}
 .archive-panel p{margin:8px 0 0;color:#cbd2d7}

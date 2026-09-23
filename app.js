@@ -127,7 +127,7 @@ function decisionHTML(d){
         '<div class="side-box fulltext-box"><h4>Volltext / Quelle</h4>'+fulltextAction+'<p class="fulltext-note">'+esc(full.available?"Die vollständige veröffentlichte Entscheidung ist extern abrufbar.":"Sobald die vollständigen Gründe veröffentlicht sind, wird der Volltext-Link ergänzt.")+'</p></div>'+
         '<div class="side-box"><h4>Fundstelle</h4><p class="citation">'+esc(d.citation||d.docket||"—")+'</p>'+source+'</div>'+
       '</aside>'+
-    '</div></div>'+
+    '</div><div class="decision-close-row"><button class="decision-close-btn" type="button" data-close-decision="'+id+'">↑ Entscheidung schließen · Zur Übersicht</button></div></div>'+
   '</details>';
 }
 function favoritePool(){
@@ -227,6 +227,17 @@ $("areaNav").addEventListener("click",e=>{
 $("courtSelect").addEventListener("change",e=>{state.court=e.target.value;renderList()});
 $("search").addEventListener("input",e=>{state.query=e.target.value;renderList()});
 $("decisionList").addEventListener("click",e=>{
+  const close=e.target.closest("[data-close-decision]");
+  if(close){
+    e.preventDefault();
+    e.stopPropagation();
+    const card=close.closest("details.decision-card");
+    if(card){
+      card.open=false;
+      requestAnimationFrame(()=>card.scrollIntoView({behavior:"smooth",block:"start"}));
+    }
+    return;
+  }
   const b=e.target.closest("[data-bookmark]");if(!b)return;
   e.preventDefault();e.stopPropagation();toggleFavorite(b.dataset.bookmark);
 });
