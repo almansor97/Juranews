@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "status": "published",
   "issue_label": "KW 38/2026",
   "week": {
@@ -8,9 +8,9 @@
     "short": "KW 38",
     "title": "Ausgabe KW 38 · 14.–20. September 2026"
   },
-  "intro": "40 besonders relevante Entscheidungen und neu veröffentlichte Entscheidungsgründe von BVerfG, BGH, BVerwG, BAG, BSG und BFH – mit Kernaussage, Einordnung und Examensbezug.",
+  "intro": "40 besonders relevante Entscheidungen und neu veröffentlichte Entscheidungsgründe – mit Kernaussage, ausführlicher Besprechung, Examensbezug und direktem Zugang zum Volltext bzw. zur Gerichtsmitteilung.",
   "week_summary": "Ausgewählt aus dem in KW 38 beobachteten Rechtsprechungszulauf und den in dieser Woche veröffentlichten oder neu verfügbaren Entscheidungen und Entscheidungsgründen. Schwerpunkte sind Wohnungsdurchsuchung und Art. 13 GG, Datenschutz und EuGH-Vorlagen, Strafprozess und Vermögensabschöpfung, Infrastruktur- und Beamtenrecht sowie aktuelle arbeits- und sozialrechtliche Grundsatzfragen.",
-  "methodology": "Kuratiert nach dogmatischer Bedeutung, Examensrelevanz, praktischer Tragweite und Aktualität der Veröffentlichung. Wo vollständige schriftliche Gründe noch fehlen, wird ausschließlich der veröffentlichte Tenor bzw. die Gerichtsmitteilung zusammengefasst.",
+  "methodology": "Kuratiert nach dogmatischer Bedeutung, Examensrelevanz, praktischer Tragweite und Aktualität der Veröffentlichung. Wo vollständige schriftliche Gründe noch fehlen, wird ausschließlich der veröffentlichte Tenor bzw. die Gerichtsmitteilung zusammengefasst. Die Kurzansicht dient nur der Orientierung; nach dem Aufklappen folgt eine ausführlichere Besprechung. Soweit ein Volltext bereits veröffentlicht ist, wird er direkt verlinkt.",
   "decisions": [
     {
       "id": "bverfg-1bvr2232-24",
@@ -33,6 +33,12 @@
       "source": {
         "name": "BVerfG – Entscheidung",
         "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2026/08/rk20260803_1bvr223224.html"
+      },
+      "detailed_analysis": "Das BVerfG stärkt Art. 13 Abs. 1 GG bei Durchsuchungen gegen Nichtverdächtige. Für die Auffindevermutung nach § 103 StPO bedarf es konkreter tatsächlicher Anhaltspunkte; räumliche Nähe zu Beschuldigten oder das Zusammenleben im selben Haus genügt nicht.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Der Beschwerdeführer nutzte in einem Mehrparteienhaus zwei ausschließlich ihm zugeordnete und verschließbare Zimmer; Küche und Bad wurden gemeinschaftlich genutzt.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: § 103 StPO verlangt bei Nichtverdächtigen konkrete Tatsachen für die Auffindevermutung. Der Schutz aus Art. 13 GG bleibt auch in gemeinschaftlichen Wohnformen individuell zugeordnet.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil hohe Bedeutung für Durchsuchungsbeschlüsse in WGs und Wohnprojekten. Für Studium und Examen ist insbesondere zu beachten: Sehr hoch: Art. 13 GG, §§ 102/103 StPO, Verhältnismäßigkeit und Richtervorbehalt.",
+      "fulltext": {
+        "available": true,
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2026/08/rk20260803_1bvr223224.html",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -56,6 +62,12 @@
       "source": {
         "name": "BVerfG – Pressemitteilung",
         "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2026/bvg26-056.html"
+      },
+      "detailed_analysis": "Die Parallelentscheidung konkretisiert den Schutz des einzelnen WG-Zimmers. Auch innerhalb einer gemeinsamen Wohnung bleibt ein ausschließlich genutztes, abschließbares Zimmer eine eigenständige grundrechtlich geschützte räumliche Sphäre.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Der Beschwerdeführer lebte mit drei Personen in einer WG und verfügte über ein eigenes abschließbares Zimmer.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Für § 103 StPO müssen konkrete Anhaltspunkte gerade für die Räume des Nichtverdächtigen bestehen. Eine gemeinsame Anschrift bedeutet nicht automatisch gemeinsame Verfügungsgewalt.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil besonders wichtig für die Reichweite von Durchsuchungsanordnungen in Mehrpersonenwohnungen. Für Studium und Examen ist insbesondere zu beachten: Sehr hoch: Verbindung von Grundrechten und Strafprozessrecht.",
+      "fulltext": {
+        "available": false,
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2026/bvg26-056.html",
+        "label": "Gerichtsmitteilung / Nachweis öffnen"
       }
     },
     {
@@ -79,6 +91,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bverfg/2026-06-22/1-bvr-2696-25"
+      },
+      "detailed_analysis": "Art. 19 Abs. 4 Satz 1 GG verlangt wirksame gerichtliche Sicherung, wenn ohne vorläufige Regelung schwere und irreversible Nachteile drohen. Die konkreten Folgen einer Versagung vorläufigen Rechtsschutzes müssen berücksichtigt werden.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Ein Insolvenzverwalter begehrte für einen Intensivpflegeanbieter vorläufig eine kostendeckende Vergütungsregelung.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Prozessuale Subsidiarität darf effektiven Rechtsschutz nicht leerlaufen lassen. Die Folgenabwägung muss die konkrete Eilbedürftigkeit erfassen.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil grundsatzbedeutung für Art. 19 Abs. 4 GG und außergerichtliche Schlichtungsmechanismen. Für Studium und Examen ist insbesondere zu beachten: Hoch: einstweiliger Rechtsschutz und Justizgewährleistung.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bverfg/2026-06-22/1-bvr-2696-25",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -102,6 +120,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bverfg/2026-09-01/2-bvr-1286-25"
+      },
+      "detailed_analysis": "Das BVerfG erinnert an die Darlegungsanforderungen aus §§ 23 Abs. 1 Satz 2, 92 BVerfGG. Eine Wiederholung des eigenen fachrechtlichen Standpunkts ersetzt die verfassungsrechtliche Auseinandersetzung nicht.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Die Beschwerde wurde mangels hinreichender Substantiierung nicht zur Entscheidung angenommen.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Die behauptete Grundrechtsverletzung ist anhand der angegriffenen Entscheidung nachvollziehbar darzulegen. Fachrechtliche Fehlerbehauptungen müssen in eine verfassungsrechtliche Argumentation überführt werden.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil praktisch wichtig für Aufbau und Zulässigkeit der Verfassungsbeschwerde. Für Studium und Examen ist insbesondere zu beachten: Hoch: §§ 23, 92 BVerfGG und Verfassungsprozessrecht.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bverfg/2026-09-01/2-bvr-1286-25",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -125,6 +149,12 @@
       "source": {
         "name": "Entscheidungsnachweis (dejure)",
         "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=17.09.2026&Aktenzeichen=I%20ZR%20256%2F25"
+      },
+      "detailed_analysis": "Im Mittelpunkt steht Art. 2 Abs. 2 lit. c DSGVO. Zu klären ist, wann eine zunächst private Datenverarbeitung ihren ausschließlich persönlichen oder familiären Charakter verliert.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Der Rechtsstreit betrifft private Kommunikations- bzw. Dateninhalte, die den rein privaten Bereich verlassen und gegenüber Dritten verwendet wurden.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Die Haushaltsausnahme ist unionsautonom auszulegen. Eine abschließende Sachentscheidung hängt von der Antwort des EuGH ab.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil hohe Alltagsrelevanz für private Chats und Datenweitergabe. Für Studium und Examen ist insbesondere zu beachten: Hoch: DSGVO-Anwendungsbereich und Art. 267 AEUV.",
+      "fulltext": {
+        "available": false,
+        "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=17.09.2026&Aktenzeichen=I%20ZR%20256%2F25",
+        "label": "Gerichtsmitteilung / Nachweis öffnen"
       }
     },
     {
@@ -148,6 +178,12 @@
       "source": {
         "name": "Entscheidungsnachweis (dejure)",
         "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=17.09.2026&Aktenzeichen=I%20ZR%20289%2F25"
+      },
+      "detailed_analysis": "Der BGH lässt die unionsrechtlichen Grenzen der privaten Datenverarbeitung verbindlich klären. Die Sache ergänzt die Vorlage I ZR 256/25.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Es geht um eine weitere Fallgestaltung, in der privat erlangte Informationen außerhalb des engsten persönlichen Bereichs verwendet wurden.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Maßgeblich ist Art. 2 Abs. 2 lit. c DSGVO. Die endgültige Einordnung hängt von der EuGH-Antwort ab.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil zusammen mit I ZR 256/25 wichtiger neuer Komplex zum privaten Datenschutz. Für Studium und Examen ist insbesondere zu beachten: Hoch: DSGVO und unionsrechtliches Vorlageverfahren.",
+      "fulltext": {
+        "available": false,
+        "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=17.09.2026&Aktenzeichen=I%20ZR%20289%2F25",
+        "label": "Gerichtsmitteilung / Nachweis öffnen"
       }
     },
     {
@@ -171,6 +207,12 @@
       "source": {
         "name": "Entscheidungsnachweis (dejure)",
         "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=17.09.2026&Aktenzeichen=I%20ZB%2058%2F25"
+      },
+      "detailed_analysis": "Farben werden vom Verkehr typischerweise eher als Gestaltungsmittel denn als Herkunftshinweis verstanden. Eine Eintragung setzt daher besondere Umstände oder nachgewiesene Verkehrsdurchsetzung voraus.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Streitgegenstand war eine für Einzelhandelsdienstleistungen im Baumarktbereich eingetragene abstrakte Farbmarke Orange.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Abstrakten Farbmarken fehlt regelmäßig originäre Unterscheidungskraft. Verkehrsdurchsetzung muss belastbar nachgewiesen werden.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil anschauliche Anwendung der §§ 8, 50 MarkenG. Für Studium und Examen ist insbesondere zu beachten: Mittel bis hoch: Markenrecht und Verkehrsdurchsetzung.",
+      "fulltext": {
+        "available": false,
+        "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=17.09.2026&Aktenzeichen=I%20ZB%2058%2F25",
+        "label": "Gerichtsmitteilung / Nachweis öffnen"
       }
     },
     {
@@ -194,6 +236,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-09-09/iv-zr-235-25"
+      },
+      "detailed_analysis": "Der BGH grenzt die Kaskoversicherung von der schadensrechtlichen Werkstattrisiko-Rechtsprechung ab. Maßgeblich ist der Versicherungsvertrag.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Nach einer Fahrzeugreparatur verlangte der Versicherungsnehmer auch solche Rechnungspositionen, die der Versicherer für nicht erforderlich hielt.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Der Leistungsumfang folgt aus den AKB und dem Begriff der erforderlichen Reparaturkosten. Das haftpflichtrechtliche Werkstattrisiko ist nicht ohne Weiteres übertragbar.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil praxisrelevant für Fahrzeugversicherung und die Abgrenzung von Schadensersatz- und Vertragsrecht. Für Studium und Examen ist insbesondere zu beachten: Hoch: Versicherungsvertragsrecht und Abgrenzung zu § 249 BGB.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-09-09/iv-zr-235-25",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -217,6 +265,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-09-09/iv-zr-259-25"
+      },
+      "detailed_analysis": "Der BGH behandelt Auslegung und Transparenz eines Risikoausschlusses. Entscheidend ist das Verständnis eines durchschnittlichen Versicherungsnehmers nach Wortlaut, Zusammenhang und Zweck.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Versichert waren Leckageschäden einer stationären Brandschutzanlage; der Versicherer berief sich auf einen Ausschluss für Bau- bzw. Reparaturarbeiten.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Versicherungsbedingungen sind aus Sicht des durchschnittlichen Versicherungsnehmers auszulegen. Risikoausschlüsse sind eng, aber nicht sinnwidrig verkürzt auszulegen.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil nützlich für AGB-Auslegung im Versicherungsrecht. Für Studium und Examen ist insbesondere zu beachten: Mittel bis hoch.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-09-09/iv-zr-259-25",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -240,6 +294,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-09-03/i-zr-74-22"
+      },
+      "detailed_analysis": "Nach unionsrechtlicher Klärung konkretisiert der BGH die Pastiche-Schranke für Sampling. Entscheidend ist ein eigenständiger kommunikativer oder künstlerischer Bezug.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Der langjährige Rechtsstreit betrifft die Übernahme einer kurzen Rhythmussequenz aus einer Tonaufnahme in ein anderes Musikstück.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Die Pastiche-Schranke ist eigenständig und keine Restkategorie. Erlaubtes Urheberrecht darf grundsätzlich nicht über Lauterkeitsrecht wieder verboten werden.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil leitentscheidung zu Sampling, Urheberrecht und UWG. Für Studium und Examen ist insbesondere zu beachten: Hoch: Schrankenrecht und unionsrechtskonforme Auslegung.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-09-03/i-zr-74-22",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -263,6 +323,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-09-03/i-zr-34-23"
+      },
+      "detailed_analysis": "Bei interner Kabelweiterleitung über eine eigene Empfangsanlage ist insbesondere zu prüfen, ob ein neues Publikum oder ein besonderes technisches Verfahren erschlossen wird.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Ein Seniorenheim leitete über eine eigene Satellitenanlage empfangene Programme über das hausinterne Kabelnetz an Bewohner weiter.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Der Begriff der öffentlichen Wiedergabe ist unionsrechtlich geprägt. Ohne neues Publikum oder anderes technisches Verfahren kann eine zustimmungsbedürftige Wiedergabe ausscheiden.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil relevant für Urheberrecht und Verwertungsgesellschaften. Für Studium und Examen ist insbesondere zu beachten: Mittel bis hoch.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-09-03/i-zr-34-23",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -286,6 +352,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-09-03/i-zr-35-23"
+      },
+      "detailed_analysis": "Die Parallelentscheidung behandelt die leistungsschutzrechtliche Seite der internen Kabelweiterleitung und knüpft an die unionsrechtliche Beurteilung des Kommunikationsvorgangs an.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Streitgegenstand war erneut die interne Weiterleitung von Satellitenprogrammen in einem Seniorenwohnheim.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Die rechtliche Qualifikation des Übertragungsvorgangs ist für Urheber- und Leistungsschutzrechte konsistent zu bestimmen. Eine technische Weiterleitung innerhalb des Heims begründet nicht automatisch neue Öffentlichkeit.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil ergänzt Seniorenwohnheim II. Für Studium und Examen ist insbesondere zu beachten: Mittel.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-09-03/i-zr-35-23",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -309,6 +381,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-09-01/xiii-zb-20-25"
+      },
+      "detailed_analysis": "Der BGH trennt bundesrechtliche Aufgabenbeschreibung und organisationsrechtliche Zuständigkeitszuweisung. Für die konkrete Vollzugszuständigkeit bleibt das Landesrecht maßgeblich.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Im ausländerrechtlichen Vollzug stellte sich im Zusammenhang mit einer Wohnungsdurchsuchung die Frage, welche Behörde für die Abschiebung zuständig war.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: § 71 AufenthG ist keine umfassende bundesrechtliche Vollzugszuständigkeitsnorm. Die konkrete Behördenzuständigkeit kann aus Landesrecht folgen.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil wichtig für Abschiebungshaft, Durchsuchungsbefugnisse und Kompetenzfragen. Für Studium und Examen ist insbesondere zu beachten: Hoch im besonderen Verwaltungsrecht.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-09-01/xiii-zb-20-25",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -332,6 +410,12 @@
       "source": {
         "name": "Entscheidungsnachweis (dejure)",
         "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=28.08.2026&Aktenzeichen=AnwZ%20%28Brfg%29%2022%2F26"
+      },
+      "detailed_analysis": "Der BGH betont den realen Organisationsgehalt der Kanzleipflicht. Maßgeblich ist die tatsächliche berufliche Niederlassung.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Streit bestand über den Widerruf der Anwaltszulassung wegen Aufgabe bzw. fehlender tatsächlicher Unterhaltung einer Kanzlei.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Die Kanzleipflicht erschöpft sich nicht in einer Postanschrift. Erreichbarkeit und äußere Erkennbarkeit sind entscheidend.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil berufsrecht mit Bezug zu Art. 12 GG. Für Studium und Examen ist insbesondere zu beachten: Mittel.",
+      "fulltext": {
+        "available": false,
+        "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=28.08.2026&Aktenzeichen=AnwZ%20%28Brfg%29%2022%2F26",
+        "label": "Gerichtsmitteilung / Nachweis öffnen"
       }
     },
     {
@@ -355,6 +439,12 @@
       "source": {
         "name": "Entscheidungsnachweis (dejure)",
         "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=13.05.2026&Aktenzeichen=IV%20ZR%2027%2F25"
+      },
+      "detailed_analysis": "Eine Klauselersetzung kommt nur unter engen Voraussetzungen in Betracht, insbesondere wenn die Vertragsfortführung sonst unzumutbar wäre und ergänzende Vertragsauslegung trägt.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Ein Verbraucherverband wandte sich gegen die weitere Verwendung beziehungsweise Ersetzung unwirksamer Bedingungen in Krankentagegeldtarifen.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Unwirksame AVB bleiben grundsätzlich unwirksam. Anpassungs- und Ersetzungsmöglichkeiten sind eng zu verstehen.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil verbraucher- und versicherungsrechtlich bedeutsam. Für Studium und Examen ist insbesondere zu beachten: Hoch: §§ 307 ff. BGB, VVG und ergänzende Vertragsauslegung.",
+      "fulltext": {
+        "available": false,
+        "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=13.05.2026&Aktenzeichen=IV%20ZR%2027%2F25",
+        "label": "Gerichtsmitteilung / Nachweis öffnen"
       }
     },
     {
@@ -378,6 +468,12 @@
       "source": {
         "name": "Entscheidungsnachweis (dejure)",
         "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=09.07.2026&Aktenzeichen=3%20StR%20202%2F25"
+      },
+      "detailed_analysis": "Der BGH präzisiert das Herkunftsmerkmal der Geldwäsche. Erforderlich ist ein deliktischer Herkunftszusammenhang; bloße funktionale Verwendung genügt nicht.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Im Verfahren ging es um Vermögenswerte und die Frage, ob ihre Verwendung im Zusammenhang mit Vortaten für § 261 StGB genügte.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: „Herrühren“ verlangt mehr als eine bloße Verbindung zur Vortat. Ohne deliktischen Erwerbs- oder Transformationszusammenhang fehlt ein Geldwäscheobjekt.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil dogmatisch wichtig für den weit gefassten Geldwäschetatbestand. Für Studium und Examen ist insbesondere zu beachten: Sehr hoch: § 261 StGB.",
+      "fulltext": {
+        "available": false,
+        "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=09.07.2026&Aktenzeichen=3%20StR%20202%2F25",
+        "label": "Gerichtsmitteilung / Nachweis öffnen"
       }
     },
     {
@@ -401,6 +497,12 @@
       "source": {
         "name": "Entscheidungsnachweis (dejure)",
         "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=08.07.2026&Aktenzeichen=3%20StR%20591%2F25"
+      },
+      "detailed_analysis": "Der BGH konkretisiert Vereinigungsstruktur, übergeordnete Interessen und den auf Straftaten gerichteten Zweck bei einer gewaltorientierten Ultra-Gruppierung.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Mitglieder einer organisierten Ultra-Gruppierung waren wegen vereinigungsbezogener Gewaltdelikte und § 129 StGB angeklagt.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Erforderlich ist eine auf gewisse Dauer angelegte organisierte Verbindung. Die Bezeichnung als Fan- oder Subkultur schließt § 129 StGB nicht aus.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil hohe Bedeutung für Vereinigungsdelikte. Für Studium und Examen ist insbesondere zu beachten: Hoch: § 129 StGB und Zurechnung in Gruppen.",
+      "fulltext": {
+        "available": false,
+        "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=08.07.2026&Aktenzeichen=3%20StR%20591%2F25",
+        "label": "Gerichtsmitteilung / Nachweis öffnen"
       }
     },
     {
@@ -424,6 +526,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-08-11/5-str-339-26"
+      },
+      "detailed_analysis": "Der BGH betont die Transparenzfunktion des Verständigungsverfahrens. Öffentlichkeit und Beteiligte sollen nachvollziehen können, ob und mit welchem Inhalt Gespräche geführt wurden.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Im Betäubungsmittelstrafverfahren rügte der Angeklagte die Behandlung vorausgegangener Verständigungsgespräche.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: § 243 Abs. 4 StPO dient der Transparenz informeller Absprachen. Die Informationspflicht hängt nicht vom Zustandekommen einer Verständigung ab.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil strafprozessual sehr wichtig und revisionsrelevant. Für Studium und Examen ist insbesondere zu beachten: Sehr hoch: §§ 243 Abs. 4, 257c StPO.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-08-11/5-str-339-26",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -447,6 +555,12 @@
       "source": {
         "name": "Entscheidungsnachweis (dejure)",
         "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=18.08.2026&Aktenzeichen=1%20StR%20149%2F26"
+      },
+      "detailed_analysis": "Der BGH differenziert zwischen dem Wegfall einer einzelnen tateinheitlichen Gesetzesverletzung und der Konstellation, in der kein unverjährter Schuldvorwurf erwiesen ist.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Das Verfahren betraf unter anderem versuchten schweren Bandendiebstahl und eine verjährte Störung von Telekommunikationsanlagen.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Tateinheit verhindert eine künstliche Teileinstellung, solange ein unverjährter Schuldspruch trägt. Ist kein unverjährter Schuldvorwurf erwiesen, darf nicht wegen des verjährten Delikts verurteilt werden.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil sauberer Schnittpunkt von Konkurrenzlehre, Verjährung und Verfahrensrecht. Für Studium und Examen ist insbesondere zu beachten: Sehr hoch.",
+      "fulltext": {
+        "available": false,
+        "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=18.08.2026&Aktenzeichen=1%20StR%20149%2F26",
+        "label": "Gerichtsmitteilung / Nachweis öffnen"
       }
     },
     {
@@ -470,6 +584,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-09-09/5-str-65-26"
+      },
+      "detailed_analysis": "Der BGH hob einen Freispruch vom Vorwurf des erpresserischen Menschenraubs in Tateinheit mit gefährlicher Körperverletzung auf.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Das Landgericht hatte den Angeklagten aus tatsächlichen Gründen freigesprochen; die Staatsanwaltschaft legte erfolgreich Revision ein.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Auch beim Freispruch gilt § 261 StPO. Das Revisionsgericht kontrolliert die rechtlichen Grenzen der tatrichterlichen Beweiswürdigung.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil instruktiv für die revisionsgerichtliche Kontrolle der Beweiswürdigung. Für Studium und Examen ist insbesondere zu beachten: Hoch im Strafprozessrecht.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-09-09/5-str-65-26",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -493,6 +613,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-09-08/5-str-398-26"
+      },
+      "detailed_analysis": "Der BGH reduzierte den Einziehungsbetrag in einem Betäubungsmittelverfahren, weil die tatrichterliche Berechnung nicht vollständig zutraf.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Streitig war insbesondere die Höhe der Wertersatzeinziehung bei bandenmäßigem Betäubungsmittel- und Cannabishandel.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Die Vermögensabschöpfung verlangt eine nachvollziehbare Bestimmung des Erlangten. Rechenfehler können revisionsgerichtlich korrigiert werden.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil praktisch relevant für §§ 73 ff. StGB. Für Studium und Examen ist insbesondere zu beachten: Mittel bis hoch.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-09-08/5-str-398-26",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -516,6 +642,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-08-26/5-str-401-25"
+      },
+      "detailed_analysis": "Der BGH beanstandete eine zu weite Anwendung des waffenrechtlichen Behördenprivilegs. Dienstliche Veranlassung ist für den konkreten Umgang mit Waffen oder Munition zu prüfen.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Ein Polizeibeamter und Schießtrainer hatte Munition im Zusammenhang mit einer dienstlich veranlassten Fortbildungsreise weitergegeben.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: § 55 WaffG erfasst nur Handlungen mit hinreichendem Zusammenhang zur dienstlichen Aufgabe. Private Zwecksetzung kann den Anwendungsausschluss entfallen lassen.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil anschauliche Auslegung einer strafrechtlich relevanten Bereichsausnahme. Für Studium und Examen ist insbesondere zu beachten: Hoch für Gesetzesauslegung und Nebenstrafrecht.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-08-26/5-str-401-25",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -539,6 +671,12 @@
       "source": {
         "name": "BVerwG – Entscheidung",
         "url": "https://www.bverwg.de/2C19.25"
+      },
+      "detailed_analysis": "Ausgleichspflichtige Zuvielarbeit setzt eine dem Dienstherrn zurechenbare Heranziehung voraus. Bei Überlastung sind Anzeige- und Organisationswege einzuhalten.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Ein pensionierter Grundschulleiter verlangte finanziellen Ausgleich für jahrelang über 40 Wochenstunden hinaus geleistete Arbeit.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Eigenverantwortlich geleistete zusätzliche Arbeitszeit ist keine automatisch angeordnete Zuvielarbeit. Überlastung ist anzuzeigen; Aufgaben sind gegebenenfalls zu priorisieren.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil grundsatzentscheidung zu beamtenrechtlicher Arbeitszeit und Fürsorgepflicht. Für Studium und Examen ist insbesondere zu beachten: Hoch im Beamtenrecht.",
+      "fulltext": {
+        "available": true,
+        "url": "https://www.bverwg.de/2C19.25",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -562,6 +700,12 @@
       "source": {
         "name": "BVerwG – Pressemitteilung",
         "url": "https://ssl.bverwg.de/pm/2026/67"
+      },
+      "detailed_analysis": "Das BVerwG beanstandet eine bayerische Regelung, die beim grenzüberschreitenden Wechsel eine um 15 Prozent reduzierte Abfindung vorsah.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Streitgegenstand war die Versorgung eines früheren Beamten nach einem Wechsel in den europäischen Dienst.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Art. 45 AEUV schützt vor finanziellen Nachteilen, die einen grenzüberschreitenden Berufswechsel erschweren. Ungleichbehandlungen bedürfen unionsrechtlicher Rechtfertigung.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil verbindet Beamtenversorgungsrecht mit unmittelbar anwendbarem Unionsrecht. Für Studium und Examen ist insbesondere zu beachten: Hoch: Anwendungsvorrang und Arbeitnehmerfreizügigkeit.",
+      "fulltext": {
+        "available": false,
+        "url": "https://ssl.bverwg.de/pm/2026/67",
+        "label": "Gerichtsmitteilung / Nachweis öffnen"
       }
     },
     {
@@ -585,6 +729,12 @@
       "source": {
         "name": "BVerwG – Entscheidung",
         "url": "https://www.bverwg.de/7A6.25"
+      },
+      "detailed_analysis": "Das BVerwG wies die Klage der Gemeinde Binz gegen das LNG-Vorhaben Mukran als unzulässig ab. Kommunale Belange vermittelten keinen allgemeinen objektiven Kontrollanspruch.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Die Gemeinde wandte sich gegen die Zulassung des LNG-Terminals auf Rügen.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Kommunale Klagebefugnis vermittelt keinen allgemeinen Rechtmäßigkeitskontrollanspruch. Eigene Planungshoheit oder kommunale Einrichtungen müssen konkret betroffen sein.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil wichtig für Kommunalverfassungsrecht und Großvorhabenrecht. Für Studium und Examen ist insbesondere zu beachten: Hoch: § 42 Abs. 2 VwGO und Art. 28 Abs. 2 GG.",
+      "fulltext": {
+        "available": true,
+        "url": "https://www.bverwg.de/7A6.25",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -608,6 +758,12 @@
       "source": {
         "name": "BVerwG – Entscheidung",
         "url": "https://www.bverwg.de/de/240626U9A2.26.0"
+      },
+      "detailed_analysis": "Das BVerwG lehnt einen objektiven Vollüberprüfungsanspruch der Gemeinde ab. Kommunale Selbstverwaltung und eigene Rechte bestimmen Umfang und Tiefe gerichtlicher Kontrolle.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Eine Große Kreisstadt wandte sich gegen den Planfeststellungsbeschluss für den SuedOstLink-Abschnitt C2.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Die Gemeinde bleibt an subjektive Rechtspositionen gebunden. Bundesfachplanung erweitert die Rügebefugnis nicht zur objektiven Kontrolle.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil leitentscheidung für kommunale Klagen in der Infrastrukturplanung. Für Studium und Examen ist insbesondere zu beachten: Sehr hoch: subjektiver Rechtsschutz, Art. 28 Abs. 2 GG und Planfeststellung.",
+      "fulltext": {
+        "available": true,
+        "url": "https://www.bverwg.de/de/240626U9A2.26.0",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -631,6 +787,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bverwg/2026-07-22/6-c-1-26"
+      },
+      "detailed_analysis": "Für Prozesskostenhilfe juristischer Personen kommt es neben deren eigener Bedürftigkeit auch auf die wirtschaftlich Beteiligten an.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Ein eingetragener Verein begehrte Prozesskostenhilfe für ein verwaltungsgerichtliches Verfahren.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Vereinsmitglieder sind wirtschaftlich Beteiligte. Das allgemeine Interesse ist enger als bloße grundsätzliche Bedeutung.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil verfahrensrechtlich bedeutsam für Verbands- und Vereinsklagen. Für Studium und Examen ist insbesondere zu beachten: Mittel bis hoch.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bverwg/2026-07-22/6-c-1-26",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -654,6 +816,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bverwg/2026-06-29/9-vr-6-26"
+      },
+      "detailed_analysis": "Das BVerwG korrigiert einen offenkundig fehlerhaften gesetzlichen Binnenverweis durch systematische und teleologische Auslegung.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Im Eilverfahren zu einem energierechtlichen Planfeststellungsverfahren war die Reichweite der Verweisungsnorm erheblich.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Auch scheinbar eindeutiger Wortlaut kann bei nachweisbarem Redaktionsversehen korrigiert werden. Die Korrektur bleibt an den erkennbaren gesetzgeberischen Regelungsplan gebunden.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil methodisch besonders interessant. Für Studium und Examen ist insbesondere zu beachten: Sehr hoch für Methodenlehre und Verwaltungsrecht.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bverwg/2026-06-29/9-vr-6-26",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -677,6 +845,12 @@
       "source": {
         "name": "BVerwG – Entscheidung",
         "url": "https://www.bverwg.de/de/300426B1WB28.25.0"
+      },
+      "detailed_analysis": "Das Gericht hob eine Regelbeurteilung auf, weil sehr positive Einzelbewertungen und eine Leistungsprämie nicht plausibel mit dem deutlich niedrigeren Gesamturteil vermittelt worden waren.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Ein Berufssoldat griff seine Regelbeurteilung wegen innerer Widersprüche an.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Beurteilungen unterliegen trotz Wertungsspielraums einer Plausibilitätskontrolle. Besondere Leistungsnachweise müssen nachvollziehbar eingeordnet werden.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil wichtig für Art. 33 Abs. 2 GG und dienstliche Beurteilungen. Für Studium und Examen ist insbesondere zu beachten: Hoch im öffentlichen Dienstrecht.",
+      "fulltext": {
+        "available": true,
+        "url": "https://www.bverwg.de/de/300426B1WB28.25.0",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -700,6 +874,12 @@
       "source": {
         "name": "BAG – Sitzungsergebnis",
         "url": "https://www.bundesarbeitsgericht.de/aktuelles-und-veranstaltungen/sitzungsergebnisse/"
+      },
+      "detailed_analysis": "Das BAG konkretisiert § 12 TV-L. Maßgeblich sind die tatsächlich organisatorisch zusammengefassten Arbeitsergebnisse, nicht allein die Bezeichnung als Serviceeinheit.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Eine Justizangestellte in einer Serviceeinheit eines Nachlassgerichts begehrte eine höhere Eingruppierung.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Arbeitsvorgänge werden nach Arbeitsergebnissen und organisatorischer Verselbständigung bestimmt. Die tatsächliche Aufgabenstruktur ist tarifrechtlich maßgeblich.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil praktisch bedeutsam für Eingruppierungsstreitigkeiten im öffentlichen Dienst. Für Studium und Examen ist insbesondere zu beachten: Hoch im Tarifrecht.",
+      "fulltext": {
+        "available": false,
+        "url": "https://www.bundesarbeitsgericht.de/aktuelles-und-veranstaltungen/sitzungsergebnisse/",
+        "label": "Gerichtsmitteilung / Nachweis öffnen"
       }
     },
     {
@@ -723,6 +903,12 @@
       "source": {
         "name": "BAG – Sitzungsergebnis",
         "url": "https://www.bundesarbeitsgericht.de/aktuelles-und-veranstaltungen/sitzungsergebnisse/"
+      },
+      "detailed_analysis": "Das BAG hob das Berufungsurteil auf und verwies zurück. Vollständige schriftliche Gründe waren bei Erstellung der Ausgabe noch nicht veröffentlicht; die Einordnung stützt sich daher auf Tenor und Verfahrensgegenstand.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Der Rechtsstreit betrifft eine Inflationsausgleichsprämie und ihre Einbeziehung über eine arbeitsvertragliche Bezugnahmeklausel.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Die abschließende dogmatische Begründung bleibt dem Volltext vorbehalten. Die Entscheidung wird nach Veröffentlichung der Gründe ergänzt.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil für Vertragsauslegung und Tarifbezugsklauseln relevant. Für Studium und Examen ist insbesondere zu beachten: Hoch, derzeit aber nur vorläufig einzuordnen.",
+      "fulltext": {
+        "available": false,
+        "url": "https://www.bundesarbeitsgericht.de/aktuelles-und-veranstaltungen/sitzungsergebnisse/",
+        "label": "Gerichtsmitteilung / Nachweis öffnen"
       }
     },
     {
@@ -746,6 +932,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bag/2026-07-30/2-azr-91-24"
+      },
+      "detailed_analysis": "Der Arbeitgeber soll das Risiko einer unwirksamen Kündigung nicht vertraglich auf den Arbeitnehmer verlagern können.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Nach einer Arbeitgeberkündigung stritten die Parteien über Vergütung für den Zeitraum des Annahmeverzugs.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: § 615 Satz 1 BGB besitzt hier zwingenden Schutzgehalt. Vergütungsfolgen unwirksamer Kündigung dürfen nicht vollständig abbedungen werden.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil grundsätzlich bedeutsam für Kündigungsschutz und Annahmeverzug. Für Studium und Examen ist insbesondere zu beachten: Sehr hoch: §§ 615, 293 ff. BGB.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bag/2026-07-30/2-azr-91-24",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -769,6 +961,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bag/2026-06-25/6-azr-7-26"
+      },
+      "detailed_analysis": "Das BAG richtet die Rechtsfolgen stärker am Zweck des Anzeigeverfahrens aus. Nicht jeder formale Mangel rechtfertigt die schärfste Sanktion.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Im Rahmen einer Massenentlassung war die Anzeige nach § 17 KSchG fehlerhaft.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Die Wirksamkeitsfolge ist am Zweck der Anzeige auszurichten. Formfehler ohne relevante Funktionsbeeinträchtigung genügen nicht automatisch.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil sehr bedeutsam für ein klassisches Problem des Kündigungsschutzrechts. Für Studium und Examen ist insbesondere zu beachten: Sehr hoch: § 17 KSchG und unionsrechtliche Einflüsse.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bag/2026-06-25/6-azr-7-26",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -792,6 +990,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bag/2026-05-21/8-azr-194-25-f"
+      },
+      "detailed_analysis": "Das BAG wendet § 9 AGG unionsrechts- und verfassungskonform an. Kirchliche Selbstbestimmung vermittelt keinen pauschalen Freibrief.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Eine Bewerberin beziehungsweise ein Bewerber wurde von einem kirchlichen Arbeitgeber wegen fehlender Kirchenzugehörigkeit nicht eingestellt.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Kirchliches Selbstbestimmungsrecht und Diskriminierungsschutz sind abzuwägen. Die Anforderung muss wesentlich, rechtmäßig und gerechtfertigt sein.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil zentrale Schnittstelle zwischen AGG, Unionsrecht und kirchlichem Selbstbestimmungsrecht. Für Studium und Examen ist insbesondere zu beachten: Sehr hoch.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bag/2026-05-21/8-azr-194-25-f",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -815,6 +1019,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bsg/2026-06-18/b-4-as-10-25-r"
+      },
+      "detailed_analysis": "Das BSG behandelt das Zusammenspiel von Freizügigkeitsrecht und Grundsicherung. Maßgeblich sind die Wirkungen der Verlustfeststellung im streitigen Leistungszeitraum.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Ein Unionsbürger begehrte SGB-II-Leistungen; zugleich bestand eine noch nicht bestandskräftige Verlustfeststellung.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Sozialleistungsrecht knüpft an ausländerrechtlichen Status und Vollziehbarkeit an. Fehlende Bestandskraft beseitigt die Rechtswirkungen nicht automatisch.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil wichtig an der Schnittstelle von Unionsfreizügigkeit und Existenzsicherung. Für Studium und Examen ist insbesondere zu beachten: Hoch.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bsg/2026-06-18/b-4-as-10-25-r",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -838,6 +1048,12 @@
       "source": {
         "name": "Entscheidungsnachweis (dejure)",
         "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BSG&Datum=18.06.2026&Aktenzeichen=B%203%20P%201%2F25%20R"
+      },
+      "detailed_analysis": "Eine Ermächtigung, Verfahren und Nachweise näher festzulegen, erlaubt nicht die Einführung einer zusätzlichen anspruchsvernichtenden Frist.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Eine Pflegeeinrichtung beantragte pandemiebedingte Erstattung nach Ablauf einer vom GKV-Spitzenverband gesetzten Frist.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Untergesetzliche Verfahrensregelungen dürfen keine neuen materiellen Anspruchsvoraussetzungen schaffen. Eine Ausschlussfrist mit Anspruchsverlust braucht gesetzliche Ermächtigung.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil grundsätzlich bedeutsam für Gesetzesvorbehalt und Selbstverwaltung. Für Studium und Examen ist insbesondere zu beachten: Sehr hoch: Normenhierarchie und Gesetzesvorbehalt.",
+      "fulltext": {
+        "available": false,
+        "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BSG&Datum=18.06.2026&Aktenzeichen=B%203%20P%201%2F25%20R",
+        "label": "Gerichtsmitteilung / Nachweis öffnen"
       }
     },
     {
@@ -861,6 +1077,12 @@
       "source": {
         "name": "Entscheidungsnachweis (dejure)",
         "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BSG&Datum=18.06.2026&Aktenzeichen=B%203%20KR%205%2F25%20R"
+      },
+      "detailed_analysis": "Das BSG bestätigt den Vorrang der spezialgesetzlichen Konfliktlösung. Gerichtlicher Rechtsschutz setzt grundsätzlich voraus, dass die Schiedsstelle zunächst befasst wurde.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Ein Hebammenberufsverband wandte sich gegen die Beteiligung eines Verbands hebammengeleiteter Einrichtungen.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: § 134a SGB V ordnet eine institutionalisierte Konfliktlösung an. Vor isolierter gerichtlicher Feststellung fehlt grundsätzlich das Rechtsschutzbedürfnis.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil wichtig für Sozialverwaltungsrecht und Rechtsschutzdogmatik. Für Studium und Examen ist insbesondere zu beachten: Hoch.",
+      "fulltext": {
+        "available": false,
+        "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BSG&Datum=18.06.2026&Aktenzeichen=B%203%20KR%205%2F25%20R",
+        "label": "Gerichtsmitteilung / Nachweis öffnen"
       }
     },
     {
@@ -884,6 +1106,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bsg/2026-07-01/b-2-u-126-25-b"
+      },
+      "detailed_analysis": "Für die richterliche Überzeugung genügt ein für das praktische Leben brauchbarer Grad von Gewissheit.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Im Unfallversicherungsrecht wurde geltend gemacht, zur Kausalität müsse ein weiteres Spezialgutachten eingeholt werden.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: § 103 SGG verlangt sachgerechte, nicht maximal denkbare Sachaufklärung. Sachverständigenauswahl steht grundsätzlich im gerichtlichen Ermessen.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil über das Sozialrecht hinaus methodisch relevant für Beweisrecht. Für Studium und Examen ist insbesondere zu beachten: Hoch für Prozessrecht und Beweismaß.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bsg/2026-07-01/b-2-u-126-25-b",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -907,6 +1135,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bsg/2026-06-23/b-3-kr-12-25-b"
+      },
+      "detailed_analysis": "Das BSG verwarf die Beschwerde als unzulässig, weil die Anforderungen an grundsätzliche Bedeutung, Divergenz und Verfahrensmangel nicht hinreichend erfüllt waren.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Streitgegenstand war die Freistellung von Kosten häuslicher Krankenpflege.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: §§ 160, 160a SGG verlangen präzise Bezeichnung des Zulassungsgrunds. Die Behauptung materieller Unrichtigkeit genügt nicht.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil prozessual nützlich für Rechtsmittelzulassung. Für Studium und Examen ist insbesondere zu beachten: Mittel.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bsg/2026-06-23/b-3-kr-12-25-b",
+        "label": "Volltext öffnen"
       }
     },
     {
@@ -930,6 +1164,12 @@
       "source": {
         "name": "Volltext (nu:legal)",
         "url": "https://recht.nulegal.eu/rechtsprechung/bfh/2026-06-18/iii-r-2-24"
+      },
+      "detailed_analysis": "§ 32 Abs. 6 Satz 9 EStG schützt die geminderte Leistungsfähigkeit eines tatsächlich betreuenden oder finanziell belasteten Elternteils.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Streit bestand über den Widerspruch gegen die Übertragung des Freibetrags für ein minderjähriges Kind.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: Der Freibetrag knüpft an tatsächliche Betreuungs- oder Kostenbelastung an. Die bloße Elternstellung genügt für den Widerspruch nicht.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil praxisrelevant im Familiensteuerrecht. Für Studium und Examen ist insbesondere zu beachten: Mittel bis hoch.",
+      "fulltext": {
+        "available": true,
+        "url": "https://recht.nulegal.eu/rechtsprechung/bfh/2026-06-18/iii-r-2-24",
+        "label": "Volltext öffnen"
       }
     }
   ]
