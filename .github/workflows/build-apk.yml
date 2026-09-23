@@ -60,6 +60,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "APK unchanged"
           else
-            git commit -m "Publish latest JuraNews APK [skip ci]"
+            git commit -m "Publish latest JuraNews APK"
             git push
           fi
