@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#18232d">
-  <meta name="description" content="JuraNews – die wichtigsten Entscheidungen der obersten Gerichtshöfe des Bundes, wöchentlich kuratiert.">
+  <meta name="description" content="JuraNews – die wichtigsten Entscheidungen von EuGH, BVerfG und den obersten Gerichtshöfen des Bundes, wöchentlich kuratiert.">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="JuraNews">
@@ -30,10 +30,10 @@
   <section class="hero">
     <div class="eyebrow" id="issueEyebrow">Wöchentlicher Rechtsprechungsbrief</div>
     <h1>Die Rechtsprechungswoche.<br><span>Konzentriert auf das Wesentliche.</span></h1>
-    <p class="hero-copy" id="intro">Die wichtigsten Entscheidungen der obersten Gerichtshöfe des Bundes – juristisch eingeordnet und für Studium und Examen aufbereitet.</p>
+    <p class="hero-copy" id="intro">Die wichtigsten Entscheidungen von EuGH, BVerfG und den obersten Gerichtshöfen des Bundes – juristisch eingeordnet und für Studium und Examen aufbereitet.</p>
     <div class="hero-meta">
       <div><strong id="decisionCount">0</strong><span>Entscheidungen</span></div>
-      <div><strong id="courtCount">6</strong><span>Gerichte</span></div>
+      <div><strong id="courtCount">7</strong><span>Gerichte</span></div>
       <div><strong id="weekLabel">–</strong><span>Ausgabe</span></div>
     </div>
   </section>
@@ -78,6 +78,7 @@
     </div>
     <select id="courtSelect" aria-label="Nach Gericht filtern">
       <option value="all">Alle Gerichte</option>
+      <option value="EuGH">EuGH</option>
       <option value="BVerfG">BVerfG</option>
       <option value="BGH">BGH</option>
       <option value="BVerwG">BVerwG</option>
@@ -89,6 +90,7 @@
 
   <nav class="area-nav" id="areaNav" aria-label="Nach Rechtsgebiet filtern">
     <button class="area-chip active" data-area="all" type="button">Alle</button>
+    <button class="area-chip" data-area="Unionsrecht" type="button">Unionsrecht</button>
     <button class="area-chip" data-area="Zivilrecht" type="button">Zivilrecht</button>
     <button class="area-chip" data-area="Strafrecht" type="button">Strafrecht</button>
     <button class="area-chip" data-area="Öffentliches Recht" type="button">Öffentliches Recht</button>

@@ -2,7 +2,7 @@
   "id": "./",
   "name": "JuraNews – Rechtsprechungsbrief",
   "short_name": "JuraNews",
-  "description": "Wöchentlich die wichtigsten Entscheidungen von BVerfG, BGH, BVerwG, BAG, BSG und BFH.",
+  "description": "Wöchentlich die wichtigsten Entscheidungen von EuGH, BVerfG, BGH, BVerwG, BAG, BSG und BFH.",
   "start_url": "./?source=pwa",
   "scope": "./",
   "display": "standalone",

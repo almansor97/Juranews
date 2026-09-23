@@ -72,7 +72,7 @@ function renderHeader(){
   $("issueEyebrow").textContent=b.status==="preview"?"Formatvorschau · erste Ausgabe folgt":(b.issue_label||"Wöchentlicher Rechtsprechungsbrief");
   $("intro").textContent=b.intro||"Die wichtigsten Entscheidungen der Woche.";
   $("decisionCount").textContent=decisions.length||"40";
-  $("courtCount").textContent=new Set(shown.map(d=>d.court).filter(Boolean)).size||6;
+  $("courtCount").textContent=new Set(shown.map(d=>d.court).filter(Boolean)).size||7;
   $("weekLabel").textContent=b.week?.short||b.issue_label||"wöchentlich";
   $("weekTitle").textContent=b.week?.title||weekText(b);
   $("weekSummary").textContent=b.week_summary||"Die wichtigsten Entscheidungen werden nach Veröffentlichung juristisch eingeordnet und hier gebündelt.";

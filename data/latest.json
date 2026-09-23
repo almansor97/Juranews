@@ -8,10 +8,72 @@
     "short": "KW 38",
     "title": "Ausgabe KW 38 · 14.–20. September 2026"
   },
-  "intro": "40 besonders relevante Entscheidungen und neu veröffentlichte Entscheidungsgründe – mit Kernaussage, ausführlicher Besprechung, Examensbezug und direktem Zugang zum Volltext bzw. zur Gerichtsmitteilung.",
-  "week_summary": "Ausgewählt aus dem in KW 38 beobachteten Rechtsprechungszulauf und den in dieser Woche veröffentlichten oder neu verfügbaren Entscheidungen und Entscheidungsgründen. Schwerpunkte sind Wohnungsdurchsuchung und Art. 13 GG, Datenschutz und EuGH-Vorlagen, Strafprozess und Vermögensabschöpfung, Infrastruktur- und Beamtenrecht sowie aktuelle arbeits- und sozialrechtliche Grundsatzfragen.",
-  "methodology": "Kuratiert nach dogmatischer Bedeutung, Examensrelevanz, praktischer Tragweite und Aktualität der Veröffentlichung. Wo vollständige schriftliche Gründe noch fehlen, wird ausschließlich der veröffentlichte Tenor bzw. die Gerichtsmitteilung zusammengefasst. Die Kurzansicht dient nur der Orientierung; nach dem Aufklappen folgt eine ausführlichere Besprechung. Soweit ein Volltext bereits veröffentlicht ist, wird er direkt verlinkt.",
+  "intro": "40 besonders relevante Entscheidungen und neu veröffentlichte Entscheidungsgründe von EuGH, BVerfG, BGH, BVerwG, BAG, BSG und BFH – mit Kernaussage, ausführlicher Besprechung, Examensbezug und Volltextzugang.",
+  "week_summary": "Ausgewählt aus dem in KW 38 beobachteten Rechtsprechungszulauf von EuGH und den höchsten deutschen Gerichten. Schwerpunkte sind unionsrechtlicher Grundrechtsschutz bei Europawahlen, internationale Zuständigkeit im Luftverkehr, Wohnungsdurchsuchung und Art. 13 GG, Datenschutz und EuGH-Vorlagen, Strafprozess und Vermögensabschöpfung, Infrastruktur- und Beamtenrecht sowie aktuelle arbeits- und sozialrechtliche Fragen.",
+  "methodology": "Kuratiert aus EuGH, BVerfG, BGH, BVerwG, BAG, BSG und BFH nach dogmatischer Bedeutung, Examensrelevanz, praktischer Tragweite und Aktualität der Veröffentlichung. Die Ausgabe bleibt auf bis zu 40 besonders wichtige Entscheidungen begrenzt. Vorrang haben amtliche Volltexte von CURIA/EUR-Lex und den Gerichten. Wo vollständige schriftliche Gründe noch fehlen, wird ausschließlich der veröffentlichte Tenor bzw. die amtliche Gerichtsmitteilung zusammengefasst.",
   "decisions": [
+    {
+      "id": "eugh-c438-24",
+      "court": "EuGH",
+      "senate": "Erste Kammer",
+      "date": "2026-09-17",
+      "docket": "C-438/24",
+      "area": "Unionsrecht",
+      "title": "Europawahlen: Überhöhte Kaution für Kandidaturen ist unverhältnismäßig",
+      "holding": "Eine finanzielle Sicherheit für die Registrierung von Kandidaten bei Europawahlen kann grundsätzlich legitim sein; Höhe und Rückerstattungsbedingungen dürfen das passive Wahlrecht aus Art. 39 GRCh jedoch nicht unverhältnismäßig beschränken.",
+      "summary": "Der EuGH beanstandet die estnische Regelung, nach der für jeden Kandidaten eine hohe Kaution zu hinterlegen war. Die Kaution verfolgte zwar legitime Ziele, überschritt in ihrer konkreten Höhe und Ausgestaltung aber das Erforderliche und gefährdete politischen Pluralismus.",
+      "facts": "Die estnische Partei Erakond Eestimaa Rohelised wollte für die Europawahl 2024 neun Kandidaten registrieren. Sieben wurden nicht zugelassen, weil die Partei die gesetzlich verlangte Kaution nicht hinterlegt hatte. Diese betrug 4.100 Euro je Kandidat und wurde nur bei Erreichen einer bestimmten Stimmenquote zurückerstattet.",
+      "reasons": [
+        "Das aktive und passive Wahlrecht zum Europäischen Parlament aus Art. 39 GRCh konkretisiert den unionsrechtlichen Grundsatz repräsentativer Demokratie.",
+        "Mitgliedstaaten dürfen die Voraussetzungen der Kandidatur regeln, müssen aber Art. 52 Abs. 1 GRCh und den Verhältnismäßigkeitsgrundsatz beachten.",
+        "Die Abschreckung unseriöser Kandidaturen kann ein legitimes Ziel sein; die konkrete finanzielle Belastung darf jedoch nicht über das Erforderliche hinausgehen.",
+        "Besonders hohe Kautionen können neue politische Bewegungen, Minderheiten und Personen mit geringem Einkommen vom politischen Wettbewerb ausschließen und damit den Pluralismus beeinträchtigen."
+      ],
+      "significance": "Die Entscheidung verbindet Wahlrecht, Grundrechtecharta und Verhältnismäßigkeitsprüfung. Sie zeigt zugleich, dass nationale Wahlrechtsautonomie bei Europawahlen unionsrechtlichen Grenzen unterliegt.",
+      "exam_relevance": "Sehr hoch: Art. 39 und 52 Abs. 1 GRCh, Art. 10 EUV, Verhältnismäßigkeit, Anwendungsvorrang und Vorabentscheidungsverfahren nach Art. 267 AEUV.",
+      "citation": "EuGH, Urt. v. 17.09.2026 – C-438/24, ECLI:EU:C:2026:762",
+      "source": {
+        "name": "EUR-Lex – Volltext",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62024CJ0438"
+      },
+      "fulltext": {
+        "available": true,
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62024CJ0438",
+        "label": "Volltext öffnen"
+      },
+      "detailed_analysis": "Der EuGH hatte zu klären, ob Estland die Registrierung von Kandidaten für die Wahl zum Europäischen Parlament von einer finanziellen Kaution abhängig machen durfte. Ausgangspunkt war Art. 39 GRCh: Das aktive und passive Wahlrecht zum Europäischen Parlament setzt den in Art. 10 EUV verankerten Grundsatz repräsentativer Demokratie um. Zwar verbleibt den Mitgliedstaaten bei der Ausgestaltung des Wahlverfahrens ein Regelungsspielraum. Einschränkungen müssen jedoch gesetzlich vorgesehen sein, den Wesensgehalt des Rechts achten, einem legitimen Gemeinwohlziel dienen und nach Art. 52 Abs. 1 GRCh verhältnismäßig sein.\n\nDer Gerichtshof akzeptiert grundsätzlich das Ziel, unseriöse oder rein taktische Kandidaturen zu verhindern. Beanstandet wurde aber die konkrete estnische Ausgestaltung. Die Kaution lag pro Kandidat deutlich über dem monatlichen Bruttomedianlohn, war für Europawahlen erheblich höher als bei nationalen Parlamentswahlen und konnte bei Parteien einen erheblichen Teil des Jahresbudgets binden. Hinzu kamen strenge Rückerstattungsbedingungen. Damit drohte die Regelung gerade neue Parteien, Minderheitengruppen und einkommensschwächere Kandidaten vom politischen Wettbewerb auszuschließen.\n\nFür die Klausur ist die Entscheidung ein sehr gutes Beispiel für eine unionsrechtliche Grundrechtsprüfung: Schutzbereich der GRCh, nationale Regelung im Anwendungsbereich des Unionsrechts, legitimes Ziel und intensive Verhältnismäßigkeitskontrolle. Zugleich eignet sie sich für Fragen zu Art. 267 AEUV und zum Verhältnis nationalen Wahlrechts zum Unionsrecht."
+    },
+    {
+      "id": "eugh-c876-24",
+      "court": "EuGH",
+      "senate": "Dritte Kammer",
+      "date": "2026-09-17",
+      "docket": "C-876/24",
+      "area": "Unionsrecht",
+      "title": "Online-Flugbuchung begründet keinen Gerichtsstand am Wohnort des Reisenden",
+      "holding": "Bei einer online geschlossenen Luftbeförderung wird der Wohnort des Reisenden nicht allein dadurch zum Gerichtsstand nach Art. 33 Abs. 1 des Montrealer Übereinkommens, dass der Flugschein dort über das Internet gebucht wurde.",
+      "summary": "Der EuGH stellt klar, dass das Montrealer Übereinkommen über die Verordnung (EG) Nr. 2027/97 auch für innerstaatliche EU-Flüge maßgeblich sein kann. Bei einer Online-Buchung entsteht aber nicht automatisch ein Gerichtsstand am Wohnort des Fluggasts.",
+      "facts": "Eine Reisende buchte von ihrem Wohnort in Fuenlabrada online einen Flug von Madrid nach Barcelona mit Vueling. Ihr aufgegebenes Gepäck ging verloren. Sie klagte am Gericht ihres Wohnorts und berief sich darauf, der Beförderungsvertrag sei dort online geschlossen worden.",
+      "reasons": [
+        "Die Verordnung (EG) Nr. 2027/97 erstreckt die einschlägigen Regeln des Montrealer Übereinkommens auch auf Luftbeförderungen innerhalb eines einzelnen Mitgliedstaats.",
+        "Der Wohnort des Reisenden ist nicht schon deshalb eine Geschäftsstelle des Luftfrachtführers, durch die der Vertrag geschlossen wurde, weil die Buchung dort online vorgenommen wurde.",
+        "Eine gegenteilige Auslegung würde Vorhersehbarkeit und Rechtssicherheit beeinträchtigen und Fluggesellschaften potenziell an jedem Ort mit Internetzugang gerichtspflichtig machen.",
+        "Für die Zuständigkeitsbestimmung ist der Hauptvertrag über die Beförderung des Reisenden maßgeblich; die Gepäckbeförderung ist eine Nebenleistung."
+      ],
+      "significance": "Wichtig für internationales Zivilverfahrensrecht, Luftverkehrsrecht und die Frage, wie klassische Gerichtsstandsregeln auf Online-Vertragsschlüsse anzuwenden sind.",
+      "exam_relevance": "Hoch: Vorabentscheidung, Montrealer Übereinkommen, Verordnung (EG) Nr. 2027/97, unionsrechtliche Auslegung völkerrechtlicher Übereinkünfte und internationale Zuständigkeit.",
+      "citation": "EuGH, Urt. v. 17.09.2026 – C-876/24, ECLI:EU:C:2026:768",
+      "source": {
+        "name": "EUR-Lex – Volltext",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62024CJ0876"
+      },
+      "fulltext": {
+        "available": true,
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62024CJ0876",
+        "label": "Volltext öffnen"
+      },
+      "detailed_analysis": "Der Fall betrifft die internationale beziehungsweise örtliche Zuständigkeit bei verlorenem Fluggepäck. Eine Reisende hatte einen Flug von Madrid nach Barcelona online von ihrem Wohnort aus gebucht. Das Gepäck ging verloren; sie klagte am Gericht ihres Wohnorts. Fraglich war zunächst, ob die Zuständigkeitsregeln des Montrealer Übereinkommens überhaupt auf einen rein innerstaatlichen Flug anwendbar sind. Der EuGH bejaht dies: Die Verordnung (EG) Nr. 2027/97 hat den sachlichen Anwendungsbereich der einschlägigen Montreal-Regeln auf Beförderungen innerhalb eines Mitgliedstaats erweitert.\n\nEntscheidend war sodann Art. 33 Abs. 1 des Montrealer Übereinkommens. Danach kann unter anderem am Ort der Geschäftsstelle des Luftfrachtführers geklagt werden, durch die der Vertrag geschlossen wurde. Der Gerichtshof lehnt es ab, bei einer Internetbuchung den Wohnort des Reisenden als solchen Ort anzusehen. Sonst könnte ein Luftfahrtunternehmen im Ergebnis überall dort verklagt werden, wo sein Online-Angebot abrufbar ist. Das widerspräche den Zielen der Vorhersehbarkeit und Rechtssicherheit. Außerdem bleibt für die Zuständigkeitsbestimmung der Vertrag über die Personenbeförderung maßgeblich; die gesondert hinzugebuchte Gepäckbeförderung ist nur Nebenleistung.\n\nExamensrelevant ist die Entscheidung wegen des Zusammenspiels von Unionsrecht, völkerrechtlichem Montrealer Übereinkommen und Zivilprozessrecht. Besonders gut lässt sich daran die unionsrechtliche Auslegung internationaler Zuständigkeitsregeln sowie die Anpassung klassischer Anknüpfungspunkte an digitale Vertragsschlüsse prüfen."
+    },
     {
       "id": "bverfg-1bvr2232-24",
       "court": "BVerfG",
@@ -1083,64 +1145,6 @@
         "available": false,
         "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BSG&Datum=18.06.2026&Aktenzeichen=B%203%20KR%205%2F25%20R",
         "label": "Gerichtsmitteilung / Nachweis öffnen"
-      }
-    },
-    {
-      "id": "bsg-b2u126-25b",
-      "court": "BSG",
-      "senate": "2. Senat",
-      "date": "2026-07-01",
-      "docket": "B 2 U 126/25 B",
-      "area": "Sozialrecht",
-      "title": "Sachverständigenbeweis: Gericht muss nicht den wissenschaftlich 'sichersten' Beweis erheben",
-      "holding": "Die Auswahl und Zahl gerichtlicher Sachverständiger liegt im pflichtgemäßen Ermessen des Tatsachengerichts; ein bestimmtes Fachgutachten ist nicht allein deshalb zwingend, weil es theoretisch noch genauer sein könnte.",
-      "summary": "Für die richterliche Überzeugung genügt ein für das praktische Leben brauchbarer Grad von Gewissheit.",
-      "facts": "Im Unfallversicherungsrecht wurde geltend gemacht, zur Kausalität müsse ein weiteres Spezialgutachten eingeholt werden.",
-      "reasons": [
-        "§ 103 SGG verlangt sachgerechte, nicht maximal denkbare Sachaufklärung.",
-        "Sachverständigenauswahl steht grundsätzlich im gerichtlichen Ermessen."
-      ],
-      "significance": "Über das Sozialrecht hinaus methodisch relevant für Beweisrecht.",
-      "exam_relevance": "Hoch für Prozessrecht und Beweismaß.",
-      "citation": "BSG, 01.07.2026 – B 2 U 126/25 B",
-      "source": {
-        "name": "Volltext (nu:legal)",
-        "url": "https://recht.nulegal.eu/rechtsprechung/bsg/2026-07-01/b-2-u-126-25-b"
-      },
-      "detailed_analysis": "Für die richterliche Überzeugung genügt ein für das praktische Leben brauchbarer Grad von Gewissheit.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Im Unfallversicherungsrecht wurde geltend gemacht, zur Kausalität müsse ein weiteres Spezialgutachten eingeholt werden.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: § 103 SGG verlangt sachgerechte, nicht maximal denkbare Sachaufklärung. Sachverständigenauswahl steht grundsätzlich im gerichtlichen Ermessen.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil über das Sozialrecht hinaus methodisch relevant für Beweisrecht. Für Studium und Examen ist insbesondere zu beachten: Hoch für Prozessrecht und Beweismaß.",
-      "fulltext": {
-        "available": true,
-        "url": "https://recht.nulegal.eu/rechtsprechung/bsg/2026-07-01/b-2-u-126-25-b",
-        "label": "Volltext öffnen"
-      }
-    },
-    {
-      "id": "bsg-b3kr12-25b",
-      "court": "BSG",
-      "senate": "3. Senat",
-      "date": "2026-06-23",
-      "docket": "B 3 KR 12/25 B",
-      "area": "Sozialrecht",
-      "title": "Häusliche Krankenpflege: hohe Darlegungsanforderungen der Nichtzulassungsbeschwerde",
-      "holding": "Eine Nichtzulassungsbeschwerde eröffnet keine allgemeine Richtigkeitskontrolle des Berufungsurteils; Zulassungsgrund, Entscheidungserheblichkeit und Klärungsbedürftigkeit müssen substantiiert dargelegt werden.",
-      "summary": "Das BSG verwarf die Beschwerde als unzulässig, weil die Anforderungen an grundsätzliche Bedeutung, Divergenz und Verfahrensmangel nicht hinreichend erfüllt waren.",
-      "facts": "Streitgegenstand war die Freistellung von Kosten häuslicher Krankenpflege.",
-      "reasons": [
-        "§§ 160, 160a SGG verlangen präzise Bezeichnung des Zulassungsgrunds.",
-        "Die Behauptung materieller Unrichtigkeit genügt nicht."
-      ],
-      "significance": "Prozessual nützlich für Rechtsmittelzulassung.",
-      "exam_relevance": "Mittel.",
-      "citation": "BSG, 23.06.2026 – B 3 KR 12/25 B",
-      "source": {
-        "name": "Volltext (nu:legal)",
-        "url": "https://recht.nulegal.eu/rechtsprechung/bsg/2026-06-23/b-3-kr-12-25-b"
-      },
-      "detailed_analysis": "Das BSG verwarf die Beschwerde als unzulässig, weil die Anforderungen an grundsätzliche Bedeutung, Divergenz und Verfahrensmangel nicht hinreichend erfüllt waren.\n\nAusgangspunkt der Entscheidung ist folgender Sachverhalt: Streitgegenstand war die Freistellung von Kosten häuslicher Krankenpflege.\n\nFür die rechtliche Beurteilung sind vor allem folgende Erwägungen tragend: §§ 160, 160a SGG verlangen präzise Bezeichnung des Zulassungsgrunds. Die Behauptung materieller Unrichtigkeit genügt nicht.\n\nDie Entscheidung ist darüber hinaus deshalb bedeutsam, weil prozessual nützlich für Rechtsmittelzulassung. Für Studium und Examen ist insbesondere zu beachten: Mittel.",
-      "fulltext": {
-        "available": true,
-        "url": "https://recht.nulegal.eu/rechtsprechung/bsg/2026-06-23/b-3-kr-12-25-b",
-        "label": "Volltext öffnen"
       }
     },
     {

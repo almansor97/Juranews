@@ -81,6 +81,7 @@ main{padding:24px 0 52px}
 .decision-summary{list-style:none;display:grid;grid-template-columns:58px 1fr auto;gap:15px;align-items:start;padding:19px 20px;cursor:pointer}
 .decision-summary::-webkit-details-marker{display:none}
 .court-badge{display:grid;place-items:center;width:58px;height:58px;border-radius:15px;background:var(--ink);color:#fff;font-weight:900;font-size:11px;letter-spacing:.02em;text-align:center;padding:5px}
+.decision-card[data-court="EuGH"] .court-badge{background:#244b78}
 .decision-card[data-court="BVerfG"] .court-badge{background:var(--wine)}
 .decision-card[data-court="BGH"] .court-badge{background:#263c50}
 .decision-card[data-court="BVerwG"] .court-badge{background:#526c5d}
