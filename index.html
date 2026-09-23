@@ -10,7 +10,8 @@
   <meta name="apple-mobile-web-app-title" content="JuraNews">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="stylesheet" href="./styles.css">
   <title>JuraNews</title>
 </head>
@@ -21,9 +22,7 @@
       <span class="brand-mark" aria-hidden="true">§</span>
       <span>JuraNews</span>
     </a>
-    <div class="top-actions">
-      <button class="install-btn" id="installBtn" type="button" hidden>App installieren</button>
-    </div>
+    <div class="top-actions"></div>
   </div>
 </header>
 
@@ -36,6 +35,18 @@
       <div><strong id="decisionCount">0</strong><span>Entscheidungen</span></div>
       <div><strong id="courtCount">6</strong><span>Gerichte</span></div>
       <div><strong id="weekLabel">–</strong><span>Ausgabe</span></div>
+    </div>
+  </section>
+
+  <section class="app-actions" aria-label="JuraNews installieren oder teilen">
+    <div class="app-actions-copy">
+      <span class="section-kicker">JuraNews überall</span>
+      <strong>Als App nutzen oder weitergeben</strong>
+      <span>Funktioniert auf iPhone, Android, Tablet und Computer.</span>
+    </div>
+    <div class="app-actions-buttons">
+      <button class="action-btn primary" id="installBtn" type="button">App installieren</button>
+      <button class="action-btn" id="shareBtn" type="button">Teilen</button>
     </div>
   </section>
 
@@ -112,6 +123,23 @@
     <span>Amtliche Fundstellen haben Vorrang. Zusammenfassungen dienen der juristischen Orientierung.</span>
   </div>
 </footer>
+
+<div class="install-sheet" id="installSheet" hidden>
+  <div class="install-sheet-backdrop" data-close-install></div>
+  <section class="install-sheet-card" role="dialog" aria-modal="true" aria-labelledby="installSheetTitle">
+    <button class="install-close" type="button" data-close-install aria-label="Schließen">×</button>
+    <div class="install-icon" aria-hidden="true">§</div>
+    <span class="section-kicker">iPhone / iPad</span>
+    <h2 id="installSheetTitle">JuraNews zum Home-Bildschirm</h2>
+    <p>Öffne JuraNews in Safari und füge die Seite als Web-App hinzu.</p>
+    <ol class="install-steps">
+      <li><strong>Teilen</strong><span>Tippe unten in Safari auf das Teilen-Symbol.</span></li>
+      <li><strong>Zum Home-Bildschirm</strong><span>Wähle „Zum Home-Bildschirm hinzufügen“.</span></li>
+      <li><strong>Hinzufügen</strong><span>Bestätige „JuraNews“. Das §-Icon erscheint auf dem Home-Bildschirm.</span></li>
+    </ol>
+    <p class="install-note" id="installNote"></p>
+  </section>
+</div>
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script src="./app.js" defer></script>

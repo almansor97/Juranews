@@ -15,6 +15,28 @@ button{cursor:pointer}
 .brand-mark{display:grid;place-items:center;width:39px;height:39px;border-radius:11px;background:var(--ink);color:#f8f4e8;font:700 25px/1 Georgia,serif;box-shadow:0 7px 18px rgba(24,35,45,.18)}
 .top-actions{display:flex;align-items:center;gap:8px}
 .install-btn{border:1px solid var(--line);background:var(--card);color:var(--ink);height:39px;border-radius:12px;font-weight:800;padding:0 13px}
+.app-actions{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:17px 0 12px;padding:15px 17px;border:1px solid var(--line);background:var(--card);border-radius:17px}
+.app-actions-copy{display:flex;flex-direction:column;min-width:0}
+.app-actions-copy strong{font:600 19px/1.15 Georgia,serif;margin:2px 0 3px}
+.app-actions-copy>span:last-child{color:var(--muted);font-size:12px}
+.app-actions-buttons{display:flex;gap:8px;flex:0 0 auto}
+.action-btn{height:41px;border:1px solid var(--line);border-radius:12px;background:var(--card2);color:var(--ink);padding:0 13px;font-weight:850}
+.action-btn.primary{background:var(--wine);border-color:var(--wine);color:#fff}
+.action-btn:active{transform:translateY(1px)}
+.install-sheet{position:fixed;inset:0;z-index:100}
+.install-sheet-backdrop{position:absolute;inset:0;background:rgba(7,16,24,.56);backdrop-filter:blur(5px)}
+.install-sheet-card{position:absolute;left:50%;bottom:max(16px,env(safe-area-inset-bottom));transform:translateX(-50%);width:min(520px,calc(100% - 20px));max-height:calc(100dvh - 32px);overflow:auto;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:0 28px 80px rgba(0,0,0,.28)}
+.install-sheet-card h2{margin:5px 38px 8px 0;font:600 28px/1.08 Georgia,serif}
+.install-sheet-card>p{margin:0 0 16px;color:var(--muted)}
+.install-close{position:absolute;right:14px;top:13px;width:36px;height:36px;border:0;border-radius:50%;background:var(--card2);color:var(--text);font-size:25px;line-height:1}
+.install-icon{display:grid;place-items:center;width:56px;height:56px;margin-bottom:15px;border-radius:15px;background:linear-gradient(145deg,#06192d,#142e4d);color:#f4dfaa;border:1px solid #b68a52;font:700 36px/1 Georgia,serif}
+.install-steps{display:grid;gap:9px;margin:0;padding:0;list-style:none;counter-reset:steps}
+.install-steps li{counter-increment:steps;display:grid;grid-template-columns:34px 1fr;column-gap:10px;padding:11px;border:1px solid var(--line);border-radius:13px;background:var(--paper)}
+.install-steps li:before{content:counter(steps);grid-row:1/3;display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--ink);color:#fff;font-weight:900}
+.install-steps strong{font-size:13px}
+.install-steps span{color:var(--muted);font-size:12px;line-height:1.4}
+.install-note{margin:14px 0 0!important;padding-top:13px;border-top:1px solid var(--line);font-size:12px!important}
+body.sheet-open{overflow:hidden}
 .favorite-count{display:inline-grid;place-items:center;min-width:20px;height:20px;padding:0 6px;border-radius:999px;background:var(--card2);color:var(--ink);font-size:10px;font-weight:900}
 .view-tab.active .favorite-count{background:rgba(255,255,255,.2);color:#fff}
 main{padding:24px 0 52px}
@@ -118,6 +140,8 @@ main{padding:24px 0 52px}
   .topbar-inner{height:58px}.brand{font-size:19px}.brand-mark{width:35px;height:35px;font-size:22px}
   main{padding-top:14px}.hero{padding:24px 20px;border-radius:22px}.hero h1{font-size:42px}
   .hero-meta>div{min-width:calc(50% - 6px);flex:1}.hero-meta>div:last-child{min-width:100%}
+  .app-actions{align-items:flex-start;flex-direction:column}
+  .app-actions-buttons{width:100%}.action-btn{flex:1}
   .brief-strip{grid-template-columns:1fr;gap:9px;padding:17px}
   .view-tabs{width:100%}.view-tab{flex:1;justify-content:center}
   .favorites-intro{grid-template-columns:1fr;gap:7px;padding:17px}

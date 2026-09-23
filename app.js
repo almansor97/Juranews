@@ -4,6 +4,9 @@ const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&
 const FAVORITES_KEY="juranews-favorites-v2";
 const LEGACY_KEY="juranews-bookmarks";
 let deferredPrompt=null;
+const isIOS=/iphone|ipad|ipod/i.test(navigator.userAgent);
+const isStandalone=window.matchMedia("(display-mode: standalone)").matches||window.navigator.standalone===true;
+const isSafari=isIOS&&/safari/i.test(navigator.userAgent)&&!/crios|fxios|edgios/i.test(navigator.userAgent);
 
 function readFavorites(){
   try{
@@ -230,12 +233,46 @@ $("archiveList").addEventListener("click",e=>{
     scrollTo({top:0,behavior:"smooth"});
   }).catch(()=>showToast("Ausgabe konnte nicht geladen werden"));
 });
-window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();deferredPrompt=e;$("installBtn").hidden=false});
+function openInstallSheet(){
+  $("installSheet").hidden=false;
+  document.body.classList.add("sheet-open");
+  $("installNote").textContent=isSafari
+    ?"Du bist bereits in Safari – die Installation dauert nur wenige Sekunden."
+    :"Falls du einen anderen Browser verwendest, öffne JuraNews zuerst in Safari.";
+}
+function closeInstallSheet(){
+  $("installSheet").hidden=true;
+  document.body.classList.remove("sheet-open");
+}
 $("installBtn").addEventListener("click",async()=>{
-  if(deferredPrompt){deferredPrompt.prompt();await deferredPrompt.userChoice;deferredPrompt=null;$("installBtn").hidden=true}
-  else showToast("Im Browser-Menü „Zum Startbildschirm hinzufügen“ wählen.");
+  if(isStandalone){showToast("JuraNews ist bereits als App installiert.");return}
+  if(isIOS){openInstallSheet();return}
+  if(deferredPrompt){
+    deferredPrompt.prompt();
+    await deferredPrompt.userChoice;
+    deferredPrompt=null;
+    return;
+  }
+  showToast("Im Browser-Menü „Zum Startbildschirm hinzufügen“ wählen.");
 });
-window.addEventListener("appinstalled",()=>{$("installBtn").hidden=true;showToast("JuraNews wurde installiert.")});
+document.querySelectorAll("[data-close-install]").forEach(x=>x.addEventListener("click",closeInstallSheet));
+window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();deferredPrompt=e});
+window.addEventListener("appinstalled",()=>showToast("JuraNews wurde installiert."));
+
+$("shareBtn").addEventListener("click",async()=>{
+  const shareData={
+    title:"JuraNews",
+    text:"JuraNews – die wichtigsten Entscheidungen der höchsten deutschen Gerichte, wöchentlich aufbereitet.",
+    url:new URL("./",location.href).href
+  };
+  try{
+    if(navigator.share){await navigator.share(shareData);return}
+    await navigator.clipboard.writeText(shareData.url);
+    showToast("JuraNews-Link kopiert");
+  }catch(err){
+    if(err?.name!=="AbortError")showToast("Teilen war nicht möglich");
+  }
+});
 
 updateFavoriteCounts();
 loadBrief().catch(()=>{
