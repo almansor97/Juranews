@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#18232d">
+  <meta name="description" content="JuraNews – die wichtigsten Entscheidungen der obersten Gerichtshöfe des Bundes, wöchentlich kuratiert.">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="JuraNews">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <link rel="stylesheet" href="./styles.css">
+  <title>JuraNews</title>
+</head>
+<body>
+<header class="topbar">
+  <div class="shell topbar-inner">
+    <a class="brand" href="./" aria-label="JuraNews Startseite">
+      <span class="brand-mark" aria-hidden="true">§</span>
+      <span>JuraNews</span>
+    </a>
+    <div class="top-actions">
+      <button class="icon-btn" id="bookmarkFilter" type="button" aria-label="Nur gemerkte Entscheidungen anzeigen" title="Merkliste">☆</button>
+      <button class="install-btn" id="installBtn" type="button" hidden>App installieren</button>
+    </div>
+  </div>
+</header>
+
+<main class="shell">
+  <section class="hero">
+    <div class="eyebrow" id="issueEyebrow">Wöchentlicher Rechtsprechungsbrief</div>
+    <h1>Die Rechtsprechungswoche.<br><span>Konzentriert auf das Wesentliche.</span></h1>
+    <p class="hero-copy" id="intro">Die wichtigsten Entscheidungen der obersten Gerichtshöfe des Bundes – juristisch eingeordnet und für Studium und Examen aufbereitet.</p>
+    <div class="hero-meta">
+      <div><strong id="decisionCount">0</strong><span>Entscheidungen</span></div>
+      <div><strong id="courtCount">6</strong><span>Gerichte</span></div>
+      <div><strong id="weekLabel">–</strong><span>Ausgabe</span></div>
+    </div>
+  </section>
+
+  <section class="brief-strip" aria-label="Schnellüberblick">
+    <div>
+      <span class="section-kicker">Wochenlage</span>
+      <h2 id="weekTitle">Aktuelle Ausgabe</h2>
+    </div>
+    <p id="weekSummary">Die neue Ausgabe wird geladen.</p>
+  </section>
+
+  <section class="toolbar" aria-label="Entscheidungen filtern">
+    <div class="search-wrap">
+      <span aria-hidden="true">⌕</span>
+      <input id="search" type="search" placeholder="Aktenzeichen, Norm, Stichwort oder Entscheidung suchen">
+    </div>
+    <select id="courtSelect" aria-label="Nach Gericht filtern">
+      <option value="all">Alle Gerichte</option>
+      <option value="BVerfG">BVerfG</option>
+      <option value="BGH">BGH</option>
+      <option value="BVerwG">BVerwG</option>
+      <option value="BAG">BAG</option>
+      <option value="BSG">BSG</option>
+      <option value="BFH">BFH</option>
+    </select>
+  </section>
+
+  <nav class="area-nav" id="areaNav" aria-label="Nach Rechtsgebiet filtern">
+    <button class="area-chip active" data-area="all" type="button">Alle</button>
+    <button class="area-chip" data-area="Zivilrecht" type="button">Zivilrecht</button>
+    <button class="area-chip" data-area="Strafrecht" type="button">Strafrecht</button>
+    <button class="area-chip" data-area="Öffentliches Recht" type="button">Öffentliches Recht</button>
+    <button class="area-chip" data-area="Arbeitsrecht" type="button">Arbeitsrecht</button>
+    <button class="area-chip" data-area="Sozialrecht" type="button">Sozialrecht</button>
+    <button class="area-chip" data-area="Steuerrecht" type="button">Steuerrecht</button>
+  </nav>
+
+  <div class="list-head">
+    <div>
+      <span class="section-kicker" id="listKicker">Aktuelle Ausgabe</span>
+      <h2>Entscheidungen</h2>
+    </div>
+    <span class="result-count" id="resultCount"></span>
+  </div>
+
+  <section class="decision-list" id="decisionList" aria-live="polite"></section>
+
+  <section class="archive-panel" id="archivePanel">
+    <div class="archive-copy">
+      <span class="section-kicker">Archiv</span>
+      <h2>Frühere Wochen</h2>
+      <p>Vergangene Ausgaben bleiben abrufbar und können jederzeit erneut durchsucht werden.</p>
+    </div>
+    <div class="archive-list" id="archiveList"><span class="muted">Archiv wird geladen …</span></div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="shell footer-inner">
+    <span>JuraNews</span>
+    <span>Amtliche Fundstellen haben Vorrang. Zusammenfassungen dienen der juristischen Orientierung.</span>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="./app.js" defer></script>
+</body>
+</html>
