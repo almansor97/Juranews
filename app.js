@@ -60,7 +60,6 @@ function migrateLegacy(pool){
 }
 function updateFavoriteCounts(){
   const n=favorites.size;
-  $("favoriteCountTop").textContent=n;
   $("favoriteCountTab").textContent=n;
 }
 function renderHeader(){
@@ -78,7 +77,6 @@ function renderHeader(){
 function renderViewChrome(){
   const fav=state.view==="favorites";
   document.querySelectorAll("[data-view]").forEach(b=>b.classList.toggle("active",b.dataset.view===state.view));
-  $("favoriteShortcut").classList.toggle("active",fav);
   $("favoritesIntro").hidden=!fav;
   $("archivePanel").hidden=fav;
   $("listKicker").textContent=fav?"Persönliches Archiv":(state.brief?.status==="preview"?"Vorschau des Formats":(state.brief?.issue_label||"Aktuelle Ausgabe"));
@@ -205,7 +203,6 @@ $("viewTabs").addEventListener("click",e=>{
   const b=e.target.closest("[data-view]");if(!b)return;
   switchView(b.dataset.view);
 });
-$("favoriteShortcut").addEventListener("click",()=>switchView("favorites",true));
 $("areaNav").addEventListener("click",e=>{
   const b=e.target.closest("[data-area]");if(!b)return;
   state.area=b.dataset.area;
