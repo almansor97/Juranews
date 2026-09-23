@@ -1,4 +1,11 @@
 {
   "schema_version": 1,
-  "issues": []
+  "issues": [
+    {
+      "week": "2026-W38",
+      "label": "KW 38/2026",
+      "date": "2026-09-20",
+      "path": "data/archive/2026-W38.json"
+    }
+  ]
 }
