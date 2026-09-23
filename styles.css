@@ -14,10 +14,12 @@ button{cursor:pointer}
 .brand{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font:700 21px/1 Georgia,serif}
 .brand-mark{display:grid;place-items:center;width:39px;height:39px;border-radius:11px;background:var(--ink);color:#f8f4e8;font:700 25px/1 Georgia,serif;box-shadow:0 7px 18px rgba(24,35,45,.18)}
 .top-actions{display:flex;align-items:center;gap:8px}
-.icon-btn,.install-btn{border:1px solid var(--line);background:var(--card);color:var(--ink);height:39px;border-radius:12px;font-weight:800}
-.icon-btn{width:39px;font-size:23px;line-height:1}
-.icon-btn.active{background:var(--wine);border-color:var(--wine);color:#fff}
+.install-btn,.favorite-shortcut{border:1px solid var(--line);background:var(--card);color:var(--ink);height:39px;border-radius:12px;font-weight:800}
 .install-btn{padding:0 13px}
+.favorite-shortcut{display:inline-flex;align-items:center;gap:7px;padding:0 10px;color:var(--wine)}
+.favorite-shortcut.active{background:var(--wine);border-color:var(--wine);color:#fff}
+.favorite-count{display:inline-grid;place-items:center;min-width:20px;height:20px;padding:0 6px;border-radius:999px;background:var(--card2);color:var(--ink);font-size:10px;font-weight:900}
+.favorite-shortcut.active .favorite-count,.view-tab.active .favorite-count{background:rgba(255,255,255,.2);color:#fff}
 main{padding:24px 0 52px}
 .hero{position:relative;overflow:hidden;background:linear-gradient(140deg,var(--ink),#24394a);color:#fbf8ef;border-radius:29px;padding:34px;box-shadow:var(--shadow)}
 .hero:before{content:"§";position:absolute;right:-5px;top:-62px;font:700 260px/1 Georgia,serif;color:rgba(255,255,255,.035);transform:rotate(8deg)}
@@ -35,6 +37,13 @@ main{padding:24px 0 52px}
 .section-kicker{color:var(--wine)}
 .brief-strip h2,.list-head h2,.archive-panel h2{margin:4px 0 0;font:600 26px/1.1 Georgia,serif;letter-spacing:-.02em}
 .brief-strip p{margin:0;color:var(--muted);font-size:15px}
+.view-tabs{display:flex;gap:8px;margin:18px 0 12px;padding:4px;background:var(--card2);border:1px solid var(--line);border-radius:15px;width:max-content;max-width:100%}
+.view-tab{display:inline-flex;align-items:center;gap:7px;border:0;background:transparent;color:var(--muted);border-radius:11px;padding:9px 14px;font-weight:850}
+.view-tab.active{background:var(--ink);color:#fff;box-shadow:0 5px 14px rgba(24,35,45,.12)}
+.favorites-intro{display:grid;grid-template-columns:minmax(180px,.55fr) 1.45fr;gap:20px;align-items:center;margin:0 0 14px;padding:19px 21px;background:linear-gradient(135deg,#fff7e9,var(--card));border:1px solid #dfcda9;border-radius:19px}
+.favorites-intro h2{margin:4px 0 0;font:600 27px/1.1 Georgia,serif}
+.favorites-intro p{margin:0;color:var(--muted)}
+[hidden]{display:none!important}
 .toolbar{display:grid;grid-template-columns:1fr 190px;gap:10px;margin:8px 0 11px}
 .search-wrap{display:flex;align-items:center;gap:9px;height:46px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:0 13px}
 .search-wrap span{font-size:22px;color:var(--muted)}
@@ -104,6 +113,8 @@ main{padding:24px 0 52px}
   main{padding-top:14px}.hero{padding:24px 20px;border-radius:22px}.hero h1{font-size:42px}
   .hero-meta>div{min-width:calc(50% - 6px);flex:1}.hero-meta>div:last-child{min-width:100%}
   .brief-strip{grid-template-columns:1fr;gap:9px;padding:17px}
+  .view-tabs{width:100%}.view-tab{flex:1;justify-content:center}
+  .favorites-intro{grid-template-columns:1fr;gap:7px;padding:17px}
   .toolbar{grid-template-columns:1fr}.toolbar select{width:100%}
   .decision-summary{grid-template-columns:46px 1fr auto;gap:11px;padding:16px 14px}
   .court-badge{width:46px;height:46px;border-radius:13px;font-size:9px}
@@ -114,6 +125,7 @@ main{padding:24px 0 52px}
 }
 @media(max-width:430px){
   .install-btn{max-width:115px;overflow:hidden;white-space:nowrap}
+  .favorite-label{display:none}.favorite-shortcut{padding:0 9px}
   .decision-summary{grid-template-columns:42px 1fr}.court-badge{width:42px;height:42px}
   .summary-actions{grid-column:2;justify-content:flex-end;margin-top:-4px}
 }
