@@ -11,7 +11,7 @@ Jede Wochenausgabe enthält bis zu 40 besonders relevante neu veröffentlichte E
 - Kernaussage und ausführliche juristische Besprechung
 - Sachverhalt, tragende Erwägungen, Bedeutung und Examenshinweis
 - Volltextzugang zur veröffentlichten Entscheidung; ersatzweise Gerichtsmitteilung/Nachweis
-- Filter nach Rechtsgebiet und Gericht, einschließlich Unionsrecht und EuGH
+- Filter nach Rechtsgebiet und Gericht, einschließlich Europarecht und EuGH
 - Volltextsuche
 - Merkliste im Browser
 - Wochenarchiv
