@@ -9,17 +9,14 @@ body{margin:0;background:var(--paper);color:var(--text);font:15px/1.55 Inter,ui-
 button,input,select{font:inherit}
 button{cursor:pointer}
 .shell{width:min(1080px,calc(100% - 30px));margin:auto}
-.topbar{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--paper) 89%,transparent);backdrop-filter:blur(18px);border-bottom:1px solid color-mix(in srgb,var(--line) 78%,transparent)}
-.topbar-inner{height:70px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.topbar{position:sticky;top:0;z-index:50;padding-top:env(safe-area-inset-top,0px);background:color-mix(in srgb,var(--paper) 89%,transparent);backdrop-filter:blur(18px);border-bottom:1px solid color-mix(in srgb,var(--line) 78%,transparent)}
+.topbar-inner{height:64px;display:flex;align-items:center;justify-content:space-between;gap:18px}
 .brand{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font:700 21px/1 Georgia,serif}
 .brand-mark{display:grid;place-items:center;width:39px;height:39px;border-radius:11px;background:var(--ink);color:#f8f4e8;font:700 25px/1 Georgia,serif;box-shadow:0 7px 18px rgba(24,35,45,.18)}
 .top-actions{display:flex;align-items:center;gap:8px}
-.install-btn,.favorite-shortcut{border:1px solid var(--line);background:var(--card);color:var(--ink);height:39px;border-radius:12px;font-weight:800}
-.install-btn{padding:0 13px}
-.favorite-shortcut{display:inline-flex;align-items:center;gap:7px;padding:0 10px;color:var(--wine)}
-.favorite-shortcut.active{background:var(--wine);border-color:var(--wine);color:#fff}
+.install-btn{border:1px solid var(--line);background:var(--card);color:var(--ink);height:39px;border-radius:12px;font-weight:800;padding:0 13px}
 .favorite-count{display:inline-grid;place-items:center;min-width:20px;height:20px;padding:0 6px;border-radius:999px;background:var(--card2);color:var(--ink);font-size:10px;font-weight:900}
-.favorite-shortcut.active .favorite-count,.view-tab.active .favorite-count{background:rgba(255,255,255,.2);color:#fff}
+.view-tab.active .favorite-count{background:rgba(255,255,255,.2);color:#fff}
 main{padding:24px 0 52px}
 .hero{position:relative;overflow:hidden;background:linear-gradient(140deg,var(--ink),#24394a);color:#fbf8ef;border-radius:29px;padding:34px;box-shadow:var(--shadow)}
 .hero:before{content:"§";position:absolute;right:-5px;top:-62px;font:700 260px/1 Georgia,serif;color:rgba(255,255,255,.035);transform:rotate(8deg)}
@@ -110,7 +107,7 @@ main{padding:24px 0 52px}
 .toast.show{opacity:1;transform:translate(-50%,0)}
 @media(max-width:760px){
   .shell{width:min(100% - 20px,1080px)}
-  .topbar-inner{height:62px}.brand{font-size:19px}.brand-mark{width:35px;height:35px;font-size:22px}
+  .topbar-inner{height:58px}.brand{font-size:19px}.brand-mark{width:35px;height:35px;font-size:22px}
   main{padding-top:14px}.hero{padding:24px 20px;border-radius:22px}.hero h1{font-size:42px}
   .hero-meta>div{min-width:calc(50% - 6px);flex:1}.hero-meta>div:last-child{min-width:100%}
   .brief-strip{grid-template-columns:1fr;gap:9px;padding:17px}
@@ -126,7 +123,6 @@ main{padding:24px 0 52px}
 }
 @media(max-width:430px){
   .install-btn{max-width:115px;overflow:hidden;white-space:nowrap}
-  .favorite-label{display:none}.favorite-shortcut{padding:0 9px}
   .decision-summary{grid-template-columns:42px 1fr}.court-badge{width:42px;height:42px}
   .summary-actions{grid-column:2;justify-content:flex-end;margin-top:-4px}
 }
