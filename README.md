@@ -8,8 +8,9 @@ Jede Wochenausgabe enthält bis zu 40 besonders relevante neu veröffentlichte E
 ## Funktionen
 - Wochenübersicht mit Gericht, Datum, Aktenzeichen und Rechtsgebiet
 - aufklappbare Entscheidungskarten
-- Kernaussage und ausführliche juristische Einordnung
+- Kernaussage und ausführliche juristische Besprechung
 - Sachverhalt, tragende Erwägungen, Bedeutung und Examenshinweis
+- Volltextzugang zur veröffentlichten Entscheidung; ersatzweise Gerichtsmitteilung/Nachweis
 - Filter nach Rechtsgebiet und Gericht
 - Volltextsuche
 - Merkliste im Browser
