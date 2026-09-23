@@ -34,7 +34,7 @@ function decisionHTML(d){
   const id=esc(d.id||crypto.randomUUID());
   const marked=bookmarks.has(d.id);
   const preview=d.is_preview?'<span class="preview-tag">Vorschau</span>':"";
-  const source=d.source?.url?'<a class="source-link" href="'+esc(d.source.url)+'" target="_blank" rel="noopener noreferrer">Amtliche Entscheidung ↗</a>':'<span class="muted">Amtliche Fundstelle wird mit der Ausgabe hinterlegt.</span>';
+  const source=d.source?.url?'<a class="source-link" href="'+esc(d.source.url)+'" target="_blank" rel="noopener noreferrer">'+esc(d.source.name||"Quelle")+' ↗</a>':'<span class="muted">Fundstelle wird mit der Ausgabe hinterlegt.</span>';
   const reasons=(d.reasons||[]).map(x=>'<li>'+esc(x)+'</li>').join("");
   return '<details class="decision-card'+(d.is_preview?' preview':'')+'" data-id="'+id+'" data-court="'+esc(d.court||"")+'">'+
     '<summary class="decision-summary">'+
