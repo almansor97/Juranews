@@ -279,7 +279,7 @@ $("shareBtn").addEventListener("click",async()=>{
   const shareData={
     title:"JuraNews",
     text:"JuraNews – die wichtigsten Entscheidungen der höchsten deutschen Gerichte, wöchentlich aufbereitet.",
-    url:new URL("./",location.href).href
+    url:new URL("./?web=1&v=20260923-5",location.href).href
   };
   try{
     if(navigator.share){await navigator.share(shareData);return}
@@ -295,4 +295,4 @@ loadBrief().catch(()=>{
   $("decisionList").innerHTML='<div class="empty-state"><strong>Ausgabe nicht verfügbar</strong>Die Daten konnten gerade nicht geladen werden.</div>';
 });
 loadArchive();
-if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("./service-worker.js"));
+if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("./service-worker.js",{updateViaCache:"none"}));
