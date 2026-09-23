@@ -22,7 +22,9 @@
       <span>JuraNews</span>
     </a>
     <div class="top-actions">
-      <button class="icon-btn" id="bookmarkFilter" type="button" aria-label="Nur gemerkte Entscheidungen anzeigen" title="Merkliste">☆</button>
+      <button class="favorite-shortcut" id="favoriteShortcut" type="button" aria-label="Favoriten öffnen" title="Favoriten">
+        <span aria-hidden="true">★</span><span class="favorite-label">Favoriten</span><span class="favorite-count" id="favoriteCountTop">0</span>
+      </button>
       <button class="install-btn" id="installBtn" type="button" hidden>App installieren</button>
     </div>
   </div>
@@ -46,6 +48,19 @@
       <h2 id="weekTitle">Aktuelle Ausgabe</h2>
     </div>
     <p id="weekSummary">Die neue Ausgabe wird geladen.</p>
+  </section>
+
+  <nav class="view-tabs" id="viewTabs" aria-label="Bereich auswählen">
+    <button class="view-tab active" data-view="current" type="button">Entscheidungen</button>
+    <button class="view-tab" data-view="favorites" type="button">★ Favoriten <span class="favorite-count" id="favoriteCountTab">0</span></button>
+  </nav>
+
+  <section class="favorites-intro" id="favoritesIntro" hidden>
+    <div>
+      <span class="section-kicker">Persönliches Archiv</span>
+      <h2>Favoriten</h2>
+    </div>
+    <p>Mit einem Stern markierte Entscheidungen bleiben auf diesem Gerät gespeichert – auch wenn eine neue Wochenausgabe erscheint.</p>
   </section>
 
   <section class="toolbar" aria-label="Entscheidungen filtern">
@@ -77,7 +92,7 @@
   <div class="list-head">
     <div>
       <span class="section-kicker" id="listKicker">Aktuelle Ausgabe</span>
-      <h2>Entscheidungen</h2>
+      <h2 id="listTitle">Entscheidungen</h2>
     </div>
     <span class="result-count" id="resultCount"></span>
   </div>
