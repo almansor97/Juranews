@@ -7,6 +7,11 @@ let deferredPrompt=null;
 const isIOS=/iphone|ipad|ipod/i.test(navigator.userAgent);
 const isStandalone=window.matchMedia("(display-mode: standalone)").matches||window.navigator.standalone===true;
 const isSafari=isIOS&&/safari/i.test(navigator.userAgent)&&!/crios|fxios|edgios/i.test(navigator.userAgent);
+const isNativeAndroid=new URLSearchParams(location.search).get("app")==="android"||/JuraNewsAndroid\//i.test(navigator.userAgent);
+if(isNativeAndroid||isStandalone){
+  $("appActions").hidden=true;
+  $("installSheet").hidden=true;
+}
 
 function readFavorites(){
   try{
