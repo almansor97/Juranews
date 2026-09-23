@@ -90,7 +90,12 @@ function decisionHTML(d){
   const preview=d.is_preview?'<span class="preview-tag">Vorschau</span>':"";
   const saved=state.view==="favorites"&&entry?.savedAt?'<span class="favorite-saved">★ gespeichert '+esc(formatSaved(entry.savedAt))+'</span>':"";
   const source=d.source?.url?'<a class="source-link" href="'+esc(d.source.url)+'" target="_blank" rel="noopener noreferrer">'+esc(d.source.name||"Quelle")+' ↗</a>':'<span class="muted">Fundstelle wird mit der Ausgabe hinterlegt.</span>';
+  const full=d.fulltext||{};
+  const fulltextAction=full.url
+    ?'<a class="fulltext-btn" href="'+esc(full.url)+'" target="_blank" rel="noopener noreferrer">'+esc(full.available?"Volltext öffnen":"Quelle / Gerichtsmitteilung öffnen")+' ↗</a>'
+    :'<span class="fulltext-pending">Volltext noch nicht veröffentlicht</span>';
   const reasons=(d.reasons||[]).map(x=>'<li>'+esc(x)+'</li>').join("");
+  const detailed=(d.detailed_analysis||"").split(/\n{2,}/).filter(Boolean).map(p=>'<p>'+esc(p)+'</p>').join("");
   return '<details class="decision-card'+(d.is_preview?' preview':'')+'" data-id="'+id+'" data-court="'+esc(d.court||"")+'">'+
     '<summary class="decision-summary">'+
       '<span class="court-badge">'+esc(d.court||"Gericht")+'</span>'+
@@ -102,14 +107,16 @@ function decisionHTML(d){
     '</summary>'+
     '<div class="decision-body"><div class="decision-grid">'+
       '<div>'+
-        '<section class="prose-block"><h4>Worum geht es?</h4><p>'+esc(d.summary||"Die ausführliche Zusammenfassung wird mit der Wochenausgabe ergänzt.")+'</p></section>'+
-        (d.facts?'<section class="prose-block"><h4>Sachverhalt</h4><p>'+esc(d.facts)+'</p></section>':'')+
+        '<section class="prose-block"><h4>Kurzüberblick</h4><p>'+esc(d.summary||"Die Zusammenfassung wird mit der Wochenausgabe ergänzt.")+'</p></section>'+
+        (detailed?'<section class="prose-block detailed-analysis"><h4>Ausführliche Besprechung</h4>'+detailed+'</section>':'')+
+        (d.facts?'<section class="prose-block"><h4>Sachverhalt kompakt</h4><p>'+esc(d.facts)+'</p></section>':'')+
         (reasons?'<section class="prose-block"><h4>Tragende Erwägungen</h4><ol class="reason-list">'+reasons+'</ol></section>':'')+
         (d.significance?'<section class="prose-block"><h4>Bedeutung der Entscheidung</h4><p>'+esc(d.significance)+'</p></section>':'')+
       '</div>'+
       '<aside class="side-stack">'+
         '<div class="side-box"><h4>Examensrelevanz</h4><p>'+esc(d.exam_relevance||"Einordnung folgt.")+'</p></div>'+
         '<div class="side-box"><h4>Gericht / Spruchkörper</h4><p>'+esc(d.court||"")+(d.senate?'<br>'+esc(d.senate):'')+'</p></div>'+
+        '<div class="side-box fulltext-box"><h4>Volltext / Quelle</h4>'+fulltextAction+'<p class="fulltext-note">'+esc(full.available?"Die vollständige veröffentlichte Entscheidung ist extern abrufbar.":"Sobald die vollständigen Gründe veröffentlicht sind, wird der Volltext-Link ergänzt.")+'</p></div>'+
         '<div class="side-box"><h4>Fundstelle</h4><p class="citation">'+esc(d.citation||d.docket||"—")+'</p>'+source+'</div>'+
       '</aside>'+
     '</div></div>'+
