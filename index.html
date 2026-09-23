@@ -12,7 +12,7 @@
   <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <link rel="stylesheet" href="./styles.css?v=20260923-6">
+  <link rel="stylesheet" href="./styles.css?v=20260923-7">
   <title>JuraNews</title>
 </head>
 <body>
@@ -42,10 +42,11 @@
     <div class="app-actions-copy">
       <span class="section-kicker">JuraNews überall</span>
       <strong>Als App nutzen oder weitergeben</strong>
-      <span>Funktioniert auf iPhone, Android, Tablet und Computer.</span>
+      <span>iPhone/iPad als Web-App · Android als APK (Android 8 oder neuer).</span>
     </div>
     <div class="app-actions-buttons">
-      <button class="action-btn primary" id="installBtn" type="button">App installieren</button>
+      <button class="action-btn primary" id="installBtn" type="button">iPhone / iPad</button>
+      <a class="action-btn android-download-btn" id="androidDownloadBtn" href="./downloads/JuraNews.apk" download>Android-App herunterladen</a>
       <button class="action-btn" id="shareBtn" type="button">Teilen</button>
     </div>
   </section>
@@ -144,6 +145,6 @@
 </div>
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
-<script src="./app.js?v=20260923-6" defer></script>
+<script src="./app.js?v=20260923-7" defer></script>
 </body>
 </html>

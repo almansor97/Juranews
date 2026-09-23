@@ -20,8 +20,9 @@ button{cursor:pointer}
 .app-actions-copy strong{font:600 19px/1.15 Georgia,serif;margin:2px 0 3px}
 .app-actions-copy>span:last-child{color:var(--muted);font-size:12px}
 .app-actions-buttons{display:flex;gap:8px;flex:0 0 auto}
-.action-btn{height:41px;border:1px solid var(--line);border-radius:12px;background:var(--card2);color:var(--ink);padding:0 13px;font-weight:850}
+.action-btn{min-height:41px;border:1px solid var(--line);border-radius:12px;background:var(--card2);color:var(--ink);padding:0 13px;font-weight:850;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;text-align:center}
 .action-btn.primary{background:var(--wine);border-color:var(--wine);color:#fff}
+.android-download-btn{background:var(--ink);border-color:var(--ink);color:#fff}
 .action-btn:active{transform:translateY(1px)}
 .install-sheet{position:fixed;inset:0;z-index:100}
 .install-sheet-backdrop{position:absolute;inset:0;background:rgba(7,16,24,.56);backdrop-filter:blur(5px)}
@@ -146,7 +147,7 @@ main{padding:24px 0 52px}
   main{padding-top:14px}.hero{padding:24px 20px;border-radius:22px}.hero h1{font-size:clamp(31px,9vw,39px);line-height:1.02;letter-spacing:-.035em;max-width:100%}
   .hero-meta>div{min-width:calc(50% - 6px);flex:1}.hero-meta>div:last-child{min-width:100%}
   .app-actions{align-items:flex-start;flex-direction:column}
-  .app-actions-buttons{width:100%}.action-btn{flex:1}
+  .app-actions-buttons{width:100%;display:grid;grid-template-columns:1fr 1fr}.action-btn{width:100%}.app-actions-buttons #shareBtn{grid-column:1/-1}
   .brief-strip{grid-template-columns:1fr;gap:9px;padding:17px}
   .view-tabs{width:100%}.view-tab{flex:1;justify-content:center}
   .favorites-intro{grid-template-columns:1fr;gap:7px;padding:17px}

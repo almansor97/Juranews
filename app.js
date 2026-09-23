@@ -260,26 +260,20 @@ function closeInstallSheet(){
   $("installSheet").hidden=true;
   document.body.classList.remove("sheet-open");
 }
-$("installBtn").addEventListener("click",async()=>{
+$("installBtn").addEventListener("click",()=>{
   if(isStandalone){showToast("JuraNews ist bereits als App installiert.");return}
-  if(isIOS){openInstallSheet();return}
-  if(deferredPrompt){
-    deferredPrompt.prompt();
-    await deferredPrompt.userChoice;
-    deferredPrompt=null;
-    return;
-  }
-  showToast("Im Browser-Menü „Zum Startbildschirm hinzufügen“ wählen.");
+  openInstallSheet();
 });
 document.querySelectorAll("[data-close-install]").forEach(x=>x.addEventListener("click",closeInstallSheet));
 window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();deferredPrompt=e});
 window.addEventListener("appinstalled",()=>showToast("JuraNews wurde installiert."));
+$("androidDownloadBtn")?.addEventListener("click",()=>showToast("Android-App wird heruntergeladen"));
 
 $("shareBtn").addEventListener("click",async()=>{
   const shareData={
     title:"JuraNews",
     text:"JuraNews – die wichtigsten Entscheidungen der höchsten deutschen Gerichte, wöchentlich aufbereitet.",
-    url:new URL("./?web=1&v=20260923-5",location.href).href
+    url:new URL("./",location.href).href
   };
   try{
     if(navigator.share){await navigator.share(shareData);return}

@@ -8,7 +8,7 @@ on:
       - ".github/workflows/build-apk.yml"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -49,3 +49,17 @@ jobs:
           path: JuraNews.apk
           if-no-files-found: error
           retention-days: 30
+
+      - name: Publish APK for website download
+        run: |
+          mkdir -p downloads
+          cp JuraNews.apk downloads/JuraNews.apk
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add downloads/JuraNews.apk
+          if git diff --cached --quiet; then
+            echo "APK unchanged"
+          else
+            git commit -m "Publish latest JuraNews APK [skip ci]"
+            git push
+          fi

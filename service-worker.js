@@ -1,9 +1,9 @@
-const CACHE="juranews-v12";
+const CACHE="juranews-v13";
 const SHELL=[
   "./",
   "./index.html",
-  "./styles.css?v=20260923-6",
-  "./app.js?v=20260923-6",
+  "./styles.css?v=20260923-7",
+  "./app.js?v=20260923-7",
   "./manifest.webmanifest",
   "./icons/icon.svg",
   "./icons/icon-192.png",
