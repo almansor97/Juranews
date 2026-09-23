@@ -17,7 +17,7 @@ import android.widget.FrameLayout;
 import android.widget.ProgressBar;
 
 public class MainActivity extends Activity {
-    private static final String HOME = "https://almansor97.github.io/Juranews/?app=android&v=2";
+    private static final String HOME = "https://almansor97.github.io/Juranews/?app=android&v=3";
     private WebView webView;
     private ProgressBar progress;
 
@@ -58,7 +58,7 @@ public class MainActivity extends Activity {
         settings.setBuiltInZoomControls(false);
         settings.setDisplayZoomControls(false);
         settings.setSupportZoom(false);
-        settings.setUserAgentString(settings.getUserAgentString() + " JuraNewsAndroid/1.1");
+        settings.setUserAgentString(settings.getUserAgentString() + " JuraNewsAndroid/1.2");
 
         webView.setWebChromeClient(new WebChromeClient() {
             @Override

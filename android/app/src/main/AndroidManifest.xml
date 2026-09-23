@@ -4,8 +4,8 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher_new"
-        android:roundIcon="@drawable/ic_launcher_new"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:label="JuraNews"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
