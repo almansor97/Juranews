@@ -2,6 +2,12 @@
   "schema_version": 1,
   "issues": [
     {
+      "week": "2026-W39",
+      "label": "KW 39/2026",
+      "date": "2026-09-27",
+      "path": "data/archive/2026-W39.json"
+    },
+    {
       "week": "2026-W38",
       "label": "KW 38/2026",
       "date": "2026-09-20",
