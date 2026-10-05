@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "data/latest.json"
+      - ".github/workflows/archive-latest.yml"
 
 permissions:
   contents: write
@@ -15,18 +16,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
       - name: Archive previous issue
         shell: bash
         run: |
           set -euo pipefail
-          OLD_WEEK=$(git show HEAD^:data/latest.json | python3 -c 'import json,sys; d=json.load(sys.stdin); print(d["week"]["from"][:4]+"-W"+d["week"]["short"].split()[-1].zfill(2))')
-          TARGET="data/archive/${OLD_WEEK}.json"
-          if [ ! -f "$TARGET" ]; then
-            git show HEAD^:data/latest.json > "$TARGET"
+          git fetch origin main
+          if [ ! -f data/archive/2026-W39.json ]; then
+            git show 423d8a651ad50760c21884146c874bd5472a82e4:data/latest.json > data/archive/2026-W39.json
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add "$TARGET"
-            git commit -m "Archive ${OLD_WEEK} JuraNews issue"
-            git push
+            git add data/archive/2026-W39.json
+            git commit -m "Archive 2026-W39 JuraNews issue"
+            git pull --rebase origin main
+            git push origin main
           fi
