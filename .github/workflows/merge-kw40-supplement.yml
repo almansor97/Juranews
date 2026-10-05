@@ -1,5 +1,6 @@
 name: Merge KW40 JuraNews supplement
 
+# One-time corrective merge for the completed KW 40 issue.
 on:
   push:
     paths:
