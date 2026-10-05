@@ -1,0 +1,55 @@
+name: Merge KW40 JuraNews supplement
+
+on:
+  push:
+    paths:
+      - "data/kw40-supplement.json"
+      - ".github/workflows/merge-kw40-supplement.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Merge supplement into latest
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          latest_path=Path('data/latest.json')
+          supplement_path=Path('data/kw40-supplement.json')
+          latest=json.loads(latest_path.read_text(encoding='utf-8'))
+          supplement=json.loads(supplement_path.read_text(encoding='utf-8'))
+          if latest.get('issue_label') != 'KW 40/2026':
+              raise SystemExit('Refusing to merge supplement into a different issue')
+          existing={d.get('id') for d in latest.get('decisions',[])}
+          for decision in supplement.get('decisions',[]):
+              if decision.get('id') not in existing:
+                  latest.setdefault('decisions',[]).append(decision)
+                  existing.add(decision.get('id'))
+          for key in ('intro','week_summary','methodology'):
+              if supplement.get(key): latest[key]=supplement[key]
+          areas={d.get('area') for d in latest.get('decisions',[])}
+          required={'Zivilrecht','Strafrecht','Öffentliches Recht','Arbeitsrecht','Sozialrecht','Steuerrecht','Europarecht'}
+          missing=required-areas
+          if missing:
+              raise SystemExit('Missing areas after merge: '+', '.join(sorted(missing)))
+          latest_path.write_text(json.dumps(latest,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+          print('decisions:',len(latest['decisions']))
+          print('areas:',sorted(areas))
+          PY
+      - name: Commit corrected issue
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Complete KW40 JuraNews subject coverage"
+          git pull --rebase origin main
+          git push origin main
