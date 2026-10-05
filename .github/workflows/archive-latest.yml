@@ -1,0 +1,32 @@
+name: Archive previous JuraNews issue
+
+on:
+  push:
+    paths:
+      - "data/latest.json"
+
+permissions:
+  contents: write
+
+jobs:
+  archive:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Archive previous issue
+        shell: bash
+        run: |
+          set -euo pipefail
+          OLD_WEEK=$(git show HEAD^:data/latest.json | python3 -c 'import json,sys; d=json.load(sys.stdin); print(d["week"]["from"][:4]+"-W"+d["week"]["short"].split()[-1].zfill(2))')
+          TARGET="data/archive/${OLD_WEEK}.json"
+          if [ ! -f "$TARGET" ]; then
+            git show HEAD^:data/latest.json > "$TARGET"
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add "$TARGET"
+            git commit -m "Archive ${OLD_WEEK} JuraNews issue"
+            git push
+          fi
